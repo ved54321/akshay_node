@@ -1,0 +1,10 @@
+
+var db = new sqlite3.Database('Dummy');
+var request = require('request')
+    
+    function beforeRender(done){
+        db.all('select count, moods from status', function(err, rows) {
+            request.data = rows;
+			done();
+    });
+}   

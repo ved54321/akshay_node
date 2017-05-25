@@ -1,0 +1,7 @@
+{
+  "status": [
+    {"count":5, "moods":"happy"},
+    {"count":6, "moods":"meh"},
+    {"count":10, "moods":"sad"}
+  ]
+}

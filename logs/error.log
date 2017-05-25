@@ -1,0 +1,300 @@
+2017-03-29T10:29:31.928Z - error: Async reports extension render failed Error: Unable to find specified template or user doesnt have permissions to read it: S1tR2CfYg
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-templates/lib/templates.js:69:17
+    at tryCatcher (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:636:18)
+    at Promise._resolveCallback (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:431:57)
+    at Promise._settlePromiseFromHandler (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:522:17)
+    at Promise._settlePromise (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:636:18)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/nodeback.js:42:21
+    at newArguments.(anonymous function) (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/executor.js:29:17)
+    at Cursor.execFn (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:484:12)
+    at callback (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/cursor.js:126:19)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/cursor.js:193:12
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:329:14
+    at Object.async.eachSeries (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:130:20)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:323:11
+    at fn (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:582:34)
+    at Immediate.<anonymous> (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:498:34)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2017-03-29T10:31:56.117Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=3
+2017-03-29T10:31:56.119Z - error: Error during processing request: http://10.0.1.146:44647/api/report details: Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-29T10:33:30.880Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=5
+2017-03-29T10:33:30.880Z - error: Async reports extension render failed Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-30T03:40:14.548Z - error: Async reports extension render failed Error: Unable to find specified template or user doesnt have permissions to read it: BktMjZK3g
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-templates/lib/templates.js:69:17
+    at tryCatcher (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:636:18)
+    at Promise._resolveCallback (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:431:57)
+    at Promise._settlePromiseFromHandler (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:522:17)
+    at Promise._settlePromise (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:636:18)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/nodeback.js:42:21
+    at newArguments.(anonymous function) (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/executor.js:29:17)
+    at Cursor.execFn (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:484:12)
+    at callback (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/cursor.js:126:19)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/cursor.js:193:12
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:329:14
+    at Object.async.eachSeries (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:130:20)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:323:11
+    at fn (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:582:34)
+    at Immediate.<anonymous> (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:498:34)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2017-03-30T03:48:13.488Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=4
+2017-03-30T03:48:13.489Z - error: Async reports extension render failed Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-30T11:38:11.504Z - error: Async reports extension render failed Error: Unable to find specified template or user doesnt have permissions to read it: HJ4AClc3g
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-templates/lib/templates.js:69:17
+    at tryCatcher (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:636:18)
+    at Promise._resolveCallback (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:431:57)
+    at Promise._settlePromiseFromHandler (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:522:17)
+    at Promise._settlePromise (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:636:18)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/nodeback.js:42:21
+    at newArguments.(anonymous function) (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/executor.js:29:17)
+    at Cursor.execFn (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:484:12)
+    at callback (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/cursor.js:126:19)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/cursor.js:193:12
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:329:14
+    at Object.async.eachSeries (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:130:20)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:323:11
+    at fn (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:582:34)
+    at Immediate.<anonymous> (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:498:34)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2017-03-30T11:39:32.733Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=4
+2017-03-30T11:39:32.734Z - error: Async reports extension render failed Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-31T03:17:20.455Z - error: Async reports extension render failed Error: Unable to find specified template or user doesnt have permissions to read it: HkFxCvcng
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-templates/lib/templates.js:69:17
+    at tryCatcher (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:636:18)
+    at Promise._resolveCallback (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:431:57)
+    at Promise._settlePromiseFromHandler (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:522:17)
+    at Promise._settlePromise (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:636:18)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/nodeback.js:42:21
+    at newArguments.(anonymous function) (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/lib/executor.js:29:17)
+    at Cursor.execFn (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/lib/datastore.js:484:12)
+    at callback (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/lib/cursor.js:126:19)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/lib/cursor.js:193:12
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/lib/datastore.js:329:14
+    at Object.async.eachSeries (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/node_modules/async/lib/async.js:130:20)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/lib/datastore.js:323:11
+    at fn (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/node_modules/async/lib/async.js:582:34)
+    at Immediate.<anonymous> (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/node_modules/async/lib/async.js:498:34)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2017-03-31T03:18:16.427Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=4
+2017-03-31T03:18:16.428Z - error: Async reports extension render failed Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-31T03:25:59.867Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=2
+2017-03-31T03:25:59.868Z - error: Async reports extension render failed Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-31T03:33:08.279Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=2
+2017-03-31T03:33:08.280Z - error: Async reports extension render failed Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-31T03:37:07.702Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=2
+2017-03-31T03:37:07.704Z - error: Async reports extension render failed Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-31T03:39:29.620Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=3
+2017-03-31T03:39:29.622Z - error: Error during processing request: http://10.0.1.146:5488/api/report details: Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-31T03:46:46.061Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=1
+2017-03-31T03:46:46.063Z - error: Error during processing request: http://10.0.1.146:5488/api/report details: Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-31T04:13:39.049Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=1
+2017-03-31T04:13:39.051Z - error: Error during processing request: http://10.0.1.146:5488/api/report details: Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-31T04:13:44.150Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=2
+2017-03-31T04:13:44.151Z - error: Error during processing request: http://10.0.1.146:5488/api/report details: Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-31T04:13:52.677Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=3
+2017-03-31T04:13:52.678Z - error: Error during processing request: http://10.0.1.146:5488/api/report details: Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-31T11:25:13.404Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=2
+2017-03-31T11:25:13.407Z - error: Async reports extension render failed Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-04-03T03:08:31.038Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=2
+2017-04-03T03:08:31.040Z - error: Async reports extension render failed Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-04-03T03:11:30.023Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=2
+2017-04-03T03:11:30.025Z - error: Async reports extension render failed Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)

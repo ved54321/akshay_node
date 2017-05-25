@@ -1,0 +1,9 @@
+     echo: off
+  explain: off
+  headers: on
+     mode: csv
+nullvalue: ""
+   output: .stdout
+separator: ","
+    stats: off
+    width: 

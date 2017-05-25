@@ -1,0 +1,36 @@
+<table>
+{{#each status}}
+    <tr>
+        <td>{{count}}</td>
+        <td>{{moods}}</td>
+    </tr>
+{{/each}}
+</table>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+
+<div id='container' "min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"/>
+
+<script>
+
+
+    var data = {{{toJSON status}}}     
+    $(function () {        
+        $('#container').highcharts({
+        chart: {
+            type: 'pie'
+        },
+        plotOptions: {
+            series: {
+                animation: false
+            }
+        },
+        title: 'Status',
+        series: [{
+            name: 'Brands',
+            colorByPoint: true,
+            data: data.map(function(i) { return { name: i.moods, y : i.count}; }) 
+        }]
+    });
+  });
+</script>

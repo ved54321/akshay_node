@@ -1,0 +1,1475 @@
+2017-03-29T10:02:38.656Z - info: Initializing jsreport@1.4.0 in development mode using configuration file dev.config.json
+2017-03-29T10:02:38.659Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2017-03-29T10:02:38.664Z - info: Searching for available extensions in /home/developer/node_js/
+2017-03-29T10:02:38.671Z - info: Extensions location cache not found, crawling directories
+2017-03-29T10:02:39.359Z - info: Found 28 extensions
+2017-03-29T10:02:39.381Z - debug: Writing extension locations cache to /tmp/jsreport-temp/extensions/locations.json
+2017-03-29T10:02:39.382Z - debug: Discovered 28 extensions
+2017-03-29T10:02:39.384Z - info: Using extension jsrender
+2017-03-29T10:02:39.385Z - info: Using extension tags
+2017-03-29T10:02:39.397Z - info: Using extension templates
+2017-03-29T10:02:39.453Z - info: Using extension authentication
+2017-03-29T10:02:39.531Z - debug: Extension authentication was disabled
+2017-03-29T10:02:39.531Z - info: Using extension import-export
+2017-03-29T10:02:39.888Z - info: Using extension debug
+2017-03-29T10:02:39.889Z - info: Using extension express
+2017-03-29T10:02:40.082Z - info: Using extension fop-pdf
+2017-03-29T10:02:40.140Z - info: Using extension handlebars
+2017-03-29T10:02:40.142Z - info: Using extension phantom-pdf
+2017-03-29T10:02:40.266Z - info: Using extension fs-store
+2017-03-29T10:02:40.364Z - debug: Extension fs-store was disabled
+2017-03-29T10:02:40.364Z - info: Using extension authorization
+2017-03-29T10:02:40.413Z - debug: Extension authorization was disabled
+2017-03-29T10:02:40.413Z - info: Using extension data
+2017-03-29T10:02:40.415Z - info: Using extension child-templates
+2017-03-29T10:02:40.473Z - info: Using extension licensing
+2017-03-29T10:02:40.668Z - info: Using extension html-to-xlsx
+2017-03-29T10:02:40.800Z - info: Using extension text
+2017-03-29T10:02:40.801Z - info: Using extension reports
+2017-03-29T10:02:40.814Z - info: Using extension resources
+2017-03-29T10:02:40.829Z - info: Using extension browser-client
+2017-03-29T10:02:40.831Z - info: Using extension studio
+2017-03-29T10:02:40.957Z - info: Using extension images
+2017-03-29T10:02:41.080Z - info: Using extension scripts
+2017-03-29T10:02:41.126Z - info: Using extension assets
+2017-03-29T10:02:41.200Z - info: Using extension scheduling
+2017-03-29T10:02:41.276Z - info: Using extension xlsx
+2017-03-29T10:02:41.912Z - info: Using extension sample-template
+2017-03-29T10:02:41.913Z - info: Using extension public-templates
+2017-03-29T10:02:41.965Z - debug: Extension public-templates was disabled
+2017-03-29T10:02:41.991Z - info: Creating memory store
+2017-03-29T10:02:42.037Z - info: Creating default express app.
+2017-03-29T10:02:42.148Z - info: jsreport server successfully started on http port: 59518
+2017-03-29T10:02:42.150Z - info: Veryfing license key free
+2017-03-29T10:02:43.438Z - info: Using free license
+2017-03-29T10:02:43.460Z - info: reporter initialized
+2017-03-29T10:18:24.800Z - info: Initializing jsreport@1.4.0 in development mode using configuration file dev.config.json
+2017-03-29T10:18:24.802Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2017-03-29T10:18:24.807Z - info: Searching for available extensions in /home/developer/node_js/
+2017-03-29T10:18:24.823Z - info: Extensions location cache contains up to date information, skipping crawling in /home/developer/node_js/node_modules/jsreport/node_modules/
+2017-03-29T10:18:24.905Z - info: Found 28 extensions
+2017-03-29T10:18:24.922Z - debug: Writing extension locations cache to /tmp/jsreport-temp/extensions/locations.json
+2017-03-29T10:18:24.923Z - debug: Discovered 28 extensions
+2017-03-29T10:18:24.925Z - info: Using extension jsrender
+2017-03-29T10:18:24.926Z - info: Using extension tags
+2017-03-29T10:18:24.938Z - info: Using extension templates
+2017-03-29T10:18:24.988Z - info: Using extension authentication
+2017-03-29T10:18:25.058Z - debug: Extension authentication was disabled
+2017-03-29T10:18:25.058Z - info: Using extension import-export
+2017-03-29T10:18:25.435Z - info: Using extension debug
+2017-03-29T10:18:25.437Z - info: Using extension express
+2017-03-29T10:18:25.675Z - info: Using extension fop-pdf
+2017-03-29T10:18:25.729Z - info: Using extension handlebars
+2017-03-29T10:18:25.731Z - info: Using extension phantom-pdf
+2017-03-29T10:18:25.847Z - info: Using extension fs-store
+2017-03-29T10:18:25.953Z - debug: Extension fs-store was disabled
+2017-03-29T10:18:25.953Z - info: Using extension authorization
+2017-03-29T10:18:25.998Z - debug: Extension authorization was disabled
+2017-03-29T10:18:25.998Z - info: Using extension data
+2017-03-29T10:18:26.000Z - info: Using extension child-templates
+2017-03-29T10:18:26.053Z - info: Using extension licensing
+2017-03-29T10:18:26.250Z - info: Using extension html-to-xlsx
+2017-03-29T10:18:26.382Z - info: Using extension text
+2017-03-29T10:18:26.383Z - info: Using extension reports
+2017-03-29T10:18:26.398Z - info: Using extension resources
+2017-03-29T10:18:26.414Z - info: Using extension browser-client
+2017-03-29T10:18:26.416Z - info: Using extension studio
+2017-03-29T10:18:26.548Z - info: Using extension images
+2017-03-29T10:18:26.671Z - info: Using extension scripts
+2017-03-29T10:18:26.726Z - info: Using extension assets
+2017-03-29T10:18:26.790Z - info: Using extension scheduling
+2017-03-29T10:18:26.867Z - info: Using extension xlsx
+2017-03-29T10:18:27.498Z - info: Using extension sample-template
+2017-03-29T10:18:27.499Z - info: Using extension public-templates
+2017-03-29T10:18:27.551Z - debug: Extension public-templates was disabled
+2017-03-29T10:18:27.577Z - info: Creating memory store
+2017-03-29T10:18:27.624Z - info: Creating default express app.
+2017-03-29T10:18:27.724Z - info: jsreport server successfully started on http port: 44647
+2017-03-29T10:18:27.726Z - info: Veryfing license key free
+2017-03-29T10:18:28.465Z - info: Using free license
+2017-03-29T10:18:28.491Z - info: reporter initialized
+2017-03-29T10:22:24.697Z - debug: OData query on tags
+2017-03-29T10:22:24.707Z - debug: OData query on templates
+2017-03-29T10:22:24.709Z - debug: OData query on data
+2017-03-29T10:22:24.710Z - debug: OData query on scripts
+2017-03-29T10:22:24.715Z - debug: OData query on images
+2017-03-29T10:22:24.732Z - debug: OData query on assets
+2017-03-29T10:22:24.734Z - debug: OData query on xlsxTemplates
+2017-03-29T10:22:24.735Z - debug: OData query on schedules
+2017-03-29T10:22:24.742Z - debug: OData query on settings
+2017-03-29T10:22:24.887Z - debug: OData query on templates
+2017-03-29T10:22:24.955Z - debug: OData query on settings
+2017-03-29T10:22:47.241Z - debug: OData insert into data
+2017-03-29T10:24:28.840Z - debug: OData update on data
+2017-03-29T10:24:37.145Z - debug: OData query on templates
+2017-03-29T10:24:37.158Z - debug: OData query on settings
+2017-03-29T10:24:41.872Z - debug: OData remove from data {"_id":"wd9fsRXABWcKBqb9"}
+2017-03-29T10:24:41.876Z - debug: OData query on templates
+2017-03-29T10:24:41.940Z - debug: OData query on settings
+2017-03-29T10:25:07.356Z - debug: OData insert into templates
+2017-03-29T10:29:31.878Z - info: Starting rendering request 1 (user: null) requestId=1
+2017-03-29T10:29:31.884Z - info: Rendering anonymous template { recipe:html,engine:none} requestId=1
+2017-03-29T10:29:31.885Z - info: Starting to render async report W0k0aPMIDxUO5hXJ
+2017-03-29T10:29:31.886Z - info: Starting rendering request 2 (user: undefined) requestId=2
+2017-03-29T10:29:31.888Z - debug: Inline data specified. requestId=1
+2017-03-29T10:29:31.926Z - warn: Error when processing render request Error during rendering report: Unable to find specified template or user doesnt have permissions to read it: S1tR2CfYg Error: Unable to find specified template or user doesnt have permissions to read it: S1tR2CfYg
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-templates/lib/templates.js:69:17
+    at tryCatcher (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:636:18)
+    at Promise._resolveCallback (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:431:57)
+    at Promise._settlePromiseFromHandler (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:522:17)
+    at Promise._settlePromise (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:636:18)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/nodeback.js:42:21
+    at newArguments.(anonymous function) (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/executor.js:29:17)
+    at Cursor.execFn (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:484:12)
+    at callback (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/cursor.js:126:19)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/cursor.js:193:12
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:329:14
+    at Object.async.eachSeries (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:130:20)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:323:11
+    at fn (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:582:34)
+    at Immediate.<anonymous> (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:498:34)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5) requestId=2
+2017-03-29T10:29:31.927Z - debug: Resources not defined for this template. requestId=1
+2017-03-29T10:29:31.928Z - error: Async reports extension render failed Error: Unable to find specified template or user doesnt have permissions to read it: S1tR2CfYg
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-templates/lib/templates.js:69:17
+    at tryCatcher (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:636:18)
+    at Promise._resolveCallback (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:431:57)
+    at Promise._settlePromiseFromHandler (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:522:17)
+    at Promise._settlePromise (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:636:18)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/nodeback.js:42:21
+    at newArguments.(anonymous function) (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/executor.js:29:17)
+    at Cursor.execFn (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:484:12)
+    at callback (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/cursor.js:126:19)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/cursor.js:193:12
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:329:14
+    at Object.async.eachSeries (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:130:20)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:323:11
+    at fn (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:582:34)
+    at Immediate.<anonymous> (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:498:34)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2017-03-29T10:29:31.939Z - debug: Rendering engine none requestId=1
+2017-03-29T10:29:32.285Z - debug: Compiled template not found in the cache, compiling timestamp=Wed Mar 29 2017 15:59:32 GMT+0530 (IST), requestId=1
+2017-03-29T10:29:32.291Z - debug: Replaced images [] requestId=1
+2017-03-29T10:29:32.294Z - debug: Executing recipe html requestId=1
+2017-03-29T10:29:32.295Z - debug: Skipping storing report. requestId=1
+2017-03-29T10:29:32.303Z - info: Rendering request 1 finished in 426 ms requestId=1
+2017-03-29T10:31:55.754Z - info: Starting rendering request 3 (user: null) requestId=3
+2017-03-29T10:31:55.756Z - info: Rendering template {shortid:BktMjZK3g, recipe:phantom-pdf,engine:handlebars} requestId=3
+2017-03-29T10:31:55.757Z - debug: Data item not defined for this template. requestId=3
+2017-03-29T10:31:55.760Z - debug: Resources not defined for this template. requestId=3
+2017-03-29T10:31:55.761Z - debug: Rendering engine handlebars requestId=3
+2017-03-29T10:31:56.078Z - debug: Compiled template not found in the cache, compiling timestamp=Wed Mar 29 2017 16:01:56 GMT+0530 (IST), requestId=3
+2017-03-29T10:31:56.080Z - debug: Replaced images [] requestId=3
+2017-03-29T10:31:56.081Z - debug: Executing recipe phantom-pdf requestId=3
+2017-03-29T10:31:56.117Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=3
+2017-03-29T10:31:56.119Z - error: Error during processing request: http://10.0.1.146:44647/api/report details: Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-29T10:33:30.124Z - info: Starting rendering request 4 (user: null) requestId=4
+2017-03-29T10:33:30.127Z - info: Rendering anonymous template { recipe:html,engine:none} requestId=4
+2017-03-29T10:33:30.128Z - info: Starting to render async report yTDchUKKkCsvcQ51
+2017-03-29T10:33:30.128Z - info: Starting rendering request 5 (user: undefined) requestId=5
+2017-03-29T10:33:30.129Z - debug: Inline data specified. requestId=4
+2017-03-29T10:33:30.132Z - info: Rendering template {shortid:BktMjZK3g, recipe:phantom-pdf,engine:handlebars} requestId=5
+2017-03-29T10:33:30.133Z - debug: Inline data specified. requestId=5
+2017-03-29T10:33:30.137Z - debug: Resources not defined for this template. requestId=4
+2017-03-29T10:33:30.139Z - debug: Rendering engine none requestId=4
+2017-03-29T10:33:30.163Z - debug: Resources not defined for this template. requestId=5
+2017-03-29T10:33:30.164Z - debug: Rendering engine handlebars requestId=5
+2017-03-29T10:33:30.796Z - debug: Compiled template not found in the cache, compiling timestamp=Wed Mar 29 2017 16:03:30 GMT+0530 (IST), requestId=4
+2017-03-29T10:33:30.798Z - debug: Replaced images [] requestId=4
+2017-03-29T10:33:30.798Z - debug: Executing recipe html requestId=4
+2017-03-29T10:33:30.799Z - debug: Skipping storing report. requestId=4
+2017-03-29T10:33:30.802Z - info: Rendering request 4 finished in 679 ms requestId=4
+2017-03-29T10:33:30.866Z - debug: Compiled template not found in the cache, compiling timestamp=Wed Mar 29 2017 16:03:30 GMT+0530 (IST), requestId=5
+2017-03-29T10:33:30.867Z - debug: Replaced images [] requestId=5
+2017-03-29T10:33:30.867Z - debug: Executing recipe phantom-pdf requestId=5
+2017-03-29T10:33:30.880Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=5
+2017-03-29T10:33:30.880Z - error: Async reports extension render failed Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-30T03:20:58.012Z - info: Initializing jsreport@1.4.0 in development mode using configuration file dev.config.json
+2017-03-30T03:20:58.016Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2017-03-30T03:20:58.020Z - info: Searching for available extensions in /home/developer/node_js/
+2017-03-30T03:20:58.037Z - info: Extensions location cache contains up to date information, skipping crawling in /home/developer/node_js/node_modules/jsreport/node_modules/
+2017-03-30T03:20:58.131Z - info: Found 28 extensions
+2017-03-30T03:20:58.148Z - debug: Writing extension locations cache to /tmp/jsreport-temp/extensions/locations.json
+2017-03-30T03:20:58.150Z - debug: Discovered 28 extensions
+2017-03-30T03:20:58.151Z - info: Using extension jsrender
+2017-03-30T03:20:58.152Z - info: Using extension tags
+2017-03-30T03:20:58.159Z - info: Using extension templates
+2017-03-30T03:20:58.213Z - info: Using extension authentication
+2017-03-30T03:20:58.288Z - debug: Extension authentication was disabled
+2017-03-30T03:20:58.288Z - info: Using extension import-export
+2017-03-30T03:20:58.800Z - info: Using extension debug
+2017-03-30T03:20:58.808Z - info: Using extension express
+2017-03-30T03:20:59.003Z - info: Using extension fop-pdf
+2017-03-30T03:20:59.058Z - info: Using extension handlebars
+2017-03-30T03:20:59.059Z - info: Using extension phantom-pdf
+2017-03-30T03:20:59.179Z - info: Using extension fs-store
+2017-03-30T03:20:59.280Z - debug: Extension fs-store was disabled
+2017-03-30T03:20:59.281Z - info: Using extension authorization
+2017-03-30T03:20:59.327Z - debug: Extension authorization was disabled
+2017-03-30T03:20:59.327Z - info: Using extension data
+2017-03-30T03:20:59.329Z - info: Using extension child-templates
+2017-03-30T03:20:59.383Z - info: Using extension licensing
+2017-03-30T03:20:59.578Z - info: Using extension html-to-xlsx
+2017-03-30T03:20:59.711Z - info: Using extension text
+2017-03-30T03:20:59.711Z - info: Using extension reports
+2017-03-30T03:20:59.725Z - info: Using extension resources
+2017-03-30T03:20:59.751Z - info: Using extension browser-client
+2017-03-30T03:20:59.752Z - info: Using extension studio
+2017-03-30T03:20:59.873Z - info: Using extension images
+2017-03-30T03:21:00.006Z - info: Using extension scripts
+2017-03-30T03:21:00.051Z - info: Using extension assets
+2017-03-30T03:21:00.119Z - info: Using extension scheduling
+2017-03-30T03:21:00.200Z - info: Using extension xlsx
+2017-03-30T03:21:00.987Z - info: Using extension sample-template
+2017-03-30T03:21:00.988Z - info: Using extension public-templates
+2017-03-30T03:21:01.039Z - debug: Extension public-templates was disabled
+2017-03-30T03:21:01.064Z - info: Creating memory store
+2017-03-30T03:21:01.130Z - info: Creating default express app.
+2017-03-30T03:21:01.232Z - info: jsreport server successfully started on http port: 53607
+2017-03-30T03:21:01.233Z - info: Veryfing license key free
+2017-03-30T03:21:02.269Z - info: Using free license
+2017-03-30T03:21:02.292Z - info: reporter initialized
+2017-03-30T03:29:39.857Z - info: Initializing jsreport@1.4.0 in development mode using configuration file dev.config.json
+2017-03-30T03:29:39.860Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2017-03-30T03:29:39.864Z - info: Searching for available extensions in /home/developer/node_js/
+2017-03-30T03:29:39.881Z - info: Extensions location cache contains up to date information, skipping crawling in /home/developer/node_js/node_modules/jsreport/node_modules/
+2017-03-30T03:29:39.964Z - info: Found 28 extensions
+2017-03-30T03:29:39.982Z - debug: Writing extension locations cache to /tmp/jsreport-temp/extensions/locations.json
+2017-03-30T03:29:39.984Z - debug: Discovered 28 extensions
+2017-03-30T03:29:39.986Z - info: Using extension jsrender
+2017-03-30T03:29:39.987Z - info: Using extension tags
+2017-03-30T03:29:39.999Z - info: Using extension templates
+2017-03-30T03:29:40.056Z - info: Using extension authentication
+2017-03-30T03:29:40.124Z - debug: Extension authentication was disabled
+2017-03-30T03:29:40.124Z - info: Using extension import-export
+2017-03-30T03:29:40.465Z - info: Using extension debug
+2017-03-30T03:29:40.467Z - info: Using extension express
+2017-03-30T03:29:40.642Z - info: Using extension fop-pdf
+2017-03-30T03:29:40.697Z - info: Using extension handlebars
+2017-03-30T03:29:40.699Z - info: Using extension phantom-pdf
+2017-03-30T03:29:40.809Z - info: Using extension fs-store
+2017-03-30T03:29:40.916Z - debug: Extension fs-store was disabled
+2017-03-30T03:29:40.916Z - info: Using extension authorization
+2017-03-30T03:29:40.964Z - debug: Extension authorization was disabled
+2017-03-30T03:29:40.964Z - info: Using extension data
+2017-03-30T03:29:40.966Z - info: Using extension child-templates
+2017-03-30T03:29:41.023Z - info: Using extension licensing
+2017-03-30T03:29:41.230Z - info: Using extension html-to-xlsx
+2017-03-30T03:29:41.361Z - info: Using extension text
+2017-03-30T03:29:41.362Z - info: Using extension reports
+2017-03-30T03:29:41.375Z - info: Using extension resources
+2017-03-30T03:29:41.389Z - info: Using extension browser-client
+2017-03-30T03:29:41.390Z - info: Using extension studio
+2017-03-30T03:29:41.516Z - info: Using extension images
+2017-03-30T03:29:41.634Z - info: Using extension scripts
+2017-03-30T03:29:41.678Z - info: Using extension assets
+2017-03-30T03:29:41.754Z - info: Using extension scheduling
+2017-03-30T03:29:41.833Z - info: Using extension xlsx
+2017-03-30T03:29:42.452Z - info: Using extension sample-template
+2017-03-30T03:29:42.453Z - info: Using extension public-templates
+2017-03-30T03:29:42.504Z - debug: Extension public-templates was disabled
+2017-03-30T03:29:42.531Z - info: Creating memory store
+2017-03-30T03:29:42.578Z - info: Creating default express app.
+2017-03-30T03:29:42.675Z - info: jsreport server successfully started on http port: 38042
+2017-03-30T03:29:42.676Z - info: Veryfing license key free
+2017-03-30T03:29:43.302Z - info: Using free license
+2017-03-30T03:29:43.326Z - info: reporter initialized
+2017-03-30T03:39:25.625Z - info: Initializing jsreport@1.4.0 in development mode using configuration file dev.config.json
+2017-03-30T03:39:25.630Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2017-03-30T03:39:25.635Z - info: Searching for available extensions in /home/developer/node_js/
+2017-03-30T03:39:25.651Z - info: Extensions location cache contains up to date information, skipping crawling in /home/developer/node_js/node_modules/jsreport/node_modules/
+2017-03-30T03:39:25.762Z - info: Found 28 extensions
+2017-03-30T03:39:25.787Z - debug: Writing extension locations cache to /tmp/jsreport-temp/extensions/locations.json
+2017-03-30T03:39:25.790Z - debug: Discovered 28 extensions
+2017-03-30T03:39:25.793Z - info: Using extension jsrender
+2017-03-30T03:39:25.795Z - info: Using extension tags
+2017-03-30T03:39:25.818Z - info: Using extension templates
+2017-03-30T03:39:25.912Z - info: Using extension authentication
+2017-03-30T03:39:26.033Z - debug: Extension authentication was disabled
+2017-03-30T03:39:26.033Z - info: Using extension import-export
+2017-03-30T03:39:26.591Z - info: Using extension debug
+2017-03-30T03:39:26.593Z - info: Using extension express
+2017-03-30T03:39:26.816Z - info: Using extension fop-pdf
+2017-03-30T03:39:26.870Z - info: Using extension handlebars
+2017-03-30T03:39:26.871Z - info: Using extension phantom-pdf
+2017-03-30T03:39:27.004Z - info: Using extension fs-store
+2017-03-30T03:39:27.107Z - debug: Extension fs-store was disabled
+2017-03-30T03:39:27.107Z - info: Using extension authorization
+2017-03-30T03:39:27.164Z - debug: Extension authorization was disabled
+2017-03-30T03:39:27.164Z - info: Using extension data
+2017-03-30T03:39:27.166Z - info: Using extension child-templates
+2017-03-30T03:39:27.222Z - info: Using extension licensing
+2017-03-30T03:39:27.564Z - info: Using extension html-to-xlsx
+2017-03-30T03:39:27.822Z - info: Using extension text
+2017-03-30T03:39:27.823Z - info: Using extension reports
+2017-03-30T03:39:27.842Z - info: Using extension resources
+2017-03-30T03:39:27.863Z - info: Using extension browser-client
+2017-03-30T03:39:27.865Z - info: Using extension studio
+2017-03-30T03:39:28.048Z - info: Using extension images
+2017-03-30T03:39:28.207Z - info: Using extension scripts
+2017-03-30T03:39:28.283Z - info: Using extension assets
+2017-03-30T03:39:28.366Z - info: Using extension scheduling
+2017-03-30T03:39:28.448Z - info: Using extension xlsx
+2017-03-30T03:39:29.191Z - info: Using extension sample-template
+2017-03-30T03:39:29.192Z - info: Using extension public-templates
+2017-03-30T03:39:29.247Z - debug: Extension public-templates was disabled
+2017-03-30T03:39:29.285Z - info: Creating memory store
+2017-03-30T03:39:29.360Z - info: Creating default express app.
+2017-03-30T03:39:29.510Z - info: jsreport server successfully started on http port: 54506
+2017-03-30T03:39:29.511Z - info: Veryfing license key free
+2017-03-30T03:39:30.308Z - info: Using free license
+2017-03-30T03:39:30.333Z - info: reporter initialized
+2017-03-30T03:40:14.450Z - info: Starting rendering request 1 (user: null) requestId=1
+2017-03-30T03:40:14.460Z - info: Rendering anonymous template { recipe:html,engine:none} requestId=1
+2017-03-30T03:40:14.461Z - info: Starting to render async report l3Aqp3ivBjv8lUx8
+2017-03-30T03:40:14.462Z - info: Starting rendering request 2 (user: undefined) requestId=2
+2017-03-30T03:40:14.467Z - debug: Inline data specified. requestId=1
+2017-03-30T03:40:14.540Z - warn: Error when processing render request Error during rendering report: Unable to find specified template or user doesnt have permissions to read it: BktMjZK3g Error: Unable to find specified template or user doesnt have permissions to read it: BktMjZK3g
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-templates/lib/templates.js:69:17
+    at tryCatcher (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:636:18)
+    at Promise._resolveCallback (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:431:57)
+    at Promise._settlePromiseFromHandler (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:522:17)
+    at Promise._settlePromise (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:636:18)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/nodeback.js:42:21
+    at newArguments.(anonymous function) (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/executor.js:29:17)
+    at Cursor.execFn (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:484:12)
+    at callback (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/cursor.js:126:19)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/cursor.js:193:12
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:329:14
+    at Object.async.eachSeries (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:130:20)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:323:11
+    at fn (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:582:34)
+    at Immediate.<anonymous> (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:498:34)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5) requestId=2
+2017-03-30T03:40:14.547Z - debug: Resources not defined for this template. requestId=1
+2017-03-30T03:40:14.548Z - error: Async reports extension render failed Error: Unable to find specified template or user doesnt have permissions to read it: BktMjZK3g
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-templates/lib/templates.js:69:17
+    at tryCatcher (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:636:18)
+    at Promise._resolveCallback (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:431:57)
+    at Promise._settlePromiseFromHandler (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:522:17)
+    at Promise._settlePromise (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:636:18)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/nodeback.js:42:21
+    at newArguments.(anonymous function) (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/executor.js:29:17)
+    at Cursor.execFn (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:484:12)
+    at callback (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/cursor.js:126:19)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/cursor.js:193:12
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:329:14
+    at Object.async.eachSeries (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:130:20)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:323:11
+    at fn (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:582:34)
+    at Immediate.<anonymous> (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:498:34)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2017-03-30T03:40:14.565Z - debug: Rendering engine none requestId=1
+2017-03-30T03:40:14.971Z - debug: Compiled template not found in the cache, compiling timestamp=Thu Mar 30 2017 09:10:14 GMT+0530 (IST), requestId=1
+2017-03-30T03:40:14.978Z - debug: Replaced images [] requestId=1
+2017-03-30T03:40:14.987Z - debug: Executing recipe html requestId=1
+2017-03-30T03:40:14.988Z - debug: Skipping storing report. requestId=1
+2017-03-30T03:40:15.017Z - info: Rendering request 1 finished in 567 ms requestId=1
+2017-03-30T03:42:06.848Z - debug: OData query on templates
+2017-03-30T03:42:06.858Z - debug: OData query on tags
+2017-03-30T03:42:06.860Z - debug: OData query on images
+2017-03-30T03:42:06.862Z - debug: OData query on scripts
+2017-03-30T03:42:06.864Z - debug: OData query on data
+2017-03-30T03:42:06.875Z - debug: OData query on assets
+2017-03-30T03:42:06.878Z - debug: OData query on xlsxTemplates
+2017-03-30T03:42:06.879Z - debug: OData query on schedules
+2017-03-30T03:42:06.888Z - debug: OData query on settings
+2017-03-30T03:42:07.036Z - debug: OData query on templates
+2017-03-30T03:42:07.108Z - debug: OData query on settings
+2017-03-30T03:47:52.487Z - debug: OData insert into templates
+2017-03-30T03:48:12.813Z - info: Starting rendering request 3 (user: null) requestId=3
+2017-03-30T03:48:12.816Z - info: Rendering anonymous template { recipe:html,engine:none} requestId=3
+2017-03-30T03:48:12.816Z - info: Starting to render async report yIh34zA6FsRejKiz
+2017-03-30T03:48:12.817Z - info: Starting rendering request 4 (user: undefined) requestId=4
+2017-03-30T03:48:12.817Z - debug: Inline data specified. requestId=3
+2017-03-30T03:48:12.821Z - info: Rendering template {shortid:HJ4AClc3g, recipe:phantom-pdf,engine:handlebars} requestId=4
+2017-03-30T03:48:12.821Z - debug: Inline data specified. requestId=4
+2017-03-30T03:48:12.825Z - debug: Resources not defined for this template. requestId=3
+2017-03-30T03:48:12.827Z - debug: Rendering engine none requestId=3
+2017-03-30T03:48:12.849Z - debug: Resources not defined for this template. requestId=4
+2017-03-30T03:48:12.850Z - debug: Rendering engine handlebars requestId=4
+2017-03-30T03:48:13.376Z - debug: Compiled template not found in the cache, compiling timestamp=Thu Mar 30 2017 09:18:13 GMT+0530 (IST), requestId=3
+2017-03-30T03:48:13.378Z - debug: Replaced images [] requestId=3
+2017-03-30T03:48:13.379Z - debug: Executing recipe html requestId=3
+2017-03-30T03:48:13.379Z - debug: Skipping storing report. requestId=3
+2017-03-30T03:48:13.384Z - info: Rendering request 3 finished in 571 ms requestId=3
+2017-03-30T03:48:13.447Z - debug: Compiled template not found in the cache, compiling timestamp=Thu Mar 30 2017 09:18:13 GMT+0530 (IST), requestId=4
+2017-03-30T03:48:13.448Z - debug: Replaced images [] requestId=4
+2017-03-30T03:48:13.449Z - debug: Executing recipe phantom-pdf requestId=4
+2017-03-30T03:48:13.488Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=4
+2017-03-30T03:48:13.489Z - error: Async reports extension render failed Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-30T09:34:25.051Z - info: Initializing jsreport@1.4.0 in development mode using configuration file dev.config.json
+2017-03-30T09:34:25.059Z - info: Searching for available extensions in /home/developer/node_js/
+2017-03-30T09:34:25.078Z - info: Extensions location cache contains up to date information, skipping crawling in /home/developer/node_js/node_modules/jsreport/node_modules/
+2017-03-30T09:34:25.168Z - info: Found 28 extensions
+2017-03-30T09:34:25.182Z - debug: Writing extension locations cache to /tmp/jsreport-temp/extensions/locations.json
+2017-03-30T09:34:25.183Z - debug: Discovered 28 extensions
+2017-03-30T09:34:25.185Z - info: Using extension express
+2017-03-30T09:34:25.372Z - info: Using extension templates
+2017-03-30T09:34:25.432Z - info: Using extension data
+2017-03-30T09:34:25.434Z - info: Using extension images
+2017-03-30T09:34:25.577Z - info: Using extension phantom-pdf
+2017-03-30T09:34:39.500Z - info: Initializing jsreport@1.4.0 in development mode using configuration file dev.config.json
+2017-03-30T09:34:39.508Z - info: Searching for available extensions in /home/developer/node_js/
+2017-03-30T09:34:39.526Z - info: Extensions location cache contains up to date information, skipping crawling in /home/developer/node_js/node_modules/jsreport/node_modules/
+2017-03-30T09:34:39.650Z - info: Found 28 extensions
+2017-03-30T09:34:39.670Z - debug: Writing extension locations cache to /tmp/jsreport-temp/extensions/locations.json
+2017-03-30T09:34:39.673Z - debug: Discovered 28 extensions
+2017-03-30T09:34:39.675Z - info: Using extension express
+2017-03-30T09:34:39.955Z - info: Using extension templates
+2017-03-30T09:34:40.012Z - info: Using extension data
+2017-03-30T09:34:40.014Z - info: Using extension images
+2017-03-30T09:34:40.148Z - info: Using extension phantom-pdf
+2017-03-30T09:34:40.276Z - info: Using extension reports
+2017-03-30T09:38:41.295Z - info: Initializing jsreport@1.4.0 in development mode using configuration file dev.config.json
+2017-03-30T09:38:41.298Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2017-03-30T09:38:41.303Z - info: Searching for available extensions in /home/developer/node_js/
+2017-03-30T09:38:41.320Z - info: Extensions location cache contains up to date information, skipping crawling in /home/developer/node_js/node_modules/jsreport/node_modules/
+2017-03-30T09:38:41.402Z - info: Found 28 extensions
+2017-03-30T09:38:41.419Z - debug: Writing extension locations cache to /tmp/jsreport-temp/extensions/locations.json
+2017-03-30T09:38:41.421Z - debug: Discovered 28 extensions
+2017-03-30T09:38:41.423Z - info: Using extension jsrender
+2017-03-30T09:38:41.424Z - info: Using extension tags
+2017-03-30T09:38:41.436Z - info: Using extension templates
+2017-03-30T09:38:41.487Z - info: Using extension authentication
+2017-03-30T09:38:41.562Z - debug: Extension authentication was disabled
+2017-03-30T09:38:41.562Z - info: Using extension import-export
+2017-03-30T09:38:41.919Z - info: Using extension debug
+2017-03-30T09:38:41.920Z - info: Using extension express
+2017-03-30T09:38:42.104Z - info: Using extension fop-pdf
+2017-03-30T09:38:42.159Z - info: Using extension handlebars
+2017-03-30T09:38:42.161Z - info: Using extension phantom-pdf
+2017-03-30T09:38:42.269Z - info: Using extension fs-store
+2017-03-30T09:38:42.367Z - debug: Extension fs-store was disabled
+2017-03-30T09:38:42.367Z - info: Using extension authorization
+2017-03-30T09:38:42.412Z - debug: Extension authorization was disabled
+2017-03-30T09:38:42.412Z - info: Using extension data
+2017-03-30T09:38:42.413Z - info: Using extension child-templates
+2017-03-30T09:38:42.466Z - info: Using extension licensing
+2017-03-30T09:38:42.661Z - info: Using extension html-to-xlsx
+2017-03-30T09:38:42.794Z - info: Using extension text
+2017-03-30T09:38:42.795Z - info: Using extension reports
+2017-03-30T09:38:42.809Z - info: Using extension resources
+2017-03-30T09:38:42.825Z - info: Using extension browser-client
+2017-03-30T09:38:42.826Z - info: Using extension studio
+2017-03-30T09:38:42.957Z - info: Using extension images
+2017-03-30T09:38:43.085Z - info: Using extension scripts
+2017-03-30T09:38:43.143Z - info: Using extension assets
+2017-03-30T09:38:43.209Z - info: Using extension scheduling
+2017-03-30T09:38:43.293Z - info: Using extension xlsx
+2017-03-30T09:38:43.954Z - info: Using extension sample-template
+2017-03-30T09:38:43.955Z - info: Using extension public-templates
+2017-03-30T09:38:44.006Z - debug: Extension public-templates was disabled
+2017-03-30T09:38:44.031Z - info: Creating memory store
+2017-03-30T09:38:44.080Z - info: Creating default express app.
+2017-03-30T09:38:44.186Z - info: jsreport server successfully started on http port: 42567
+2017-03-30T09:38:44.187Z - info: Veryfing license key free
+2017-03-30T09:38:45.033Z - info: Using free license
+2017-03-30T09:38:45.057Z - info: reporter initialized
+2017-03-30T09:42:41.303Z - info: Initializing jsreport@1.4.0 in development mode using configuration file dev.config.json
+2017-03-30T09:42:41.305Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2017-03-30T09:42:41.310Z - info: Searching for available extensions in /home/developer/node_js/
+2017-03-30T09:42:41.327Z - info: Extensions location cache contains up to date information, skipping crawling in /home/developer/node_js/node_modules/jsreport/node_modules/
+2017-03-30T09:42:41.408Z - info: Found 28 extensions
+2017-03-30T09:42:41.424Z - debug: Writing extension locations cache to /tmp/jsreport-temp/extensions/locations.json
+2017-03-30T09:42:41.426Z - debug: Discovered 28 extensions
+2017-03-30T09:42:41.427Z - info: Using extension jsrender
+2017-03-30T09:42:41.429Z - info: Using extension tags
+2017-03-30T09:42:41.439Z - info: Using extension templates
+2017-03-30T09:42:41.492Z - info: Using extension authentication
+2017-03-30T09:42:41.564Z - debug: Extension authentication was disabled
+2017-03-30T09:42:41.564Z - info: Using extension import-export
+2017-03-30T09:42:41.928Z - info: Using extension debug
+2017-03-30T09:42:41.929Z - info: Using extension express
+2017-03-30T09:42:42.110Z - info: Using extension fop-pdf
+2017-03-30T09:42:42.164Z - info: Using extension handlebars
+2017-03-30T09:42:42.165Z - info: Using extension phantom-pdf
+2017-03-30T09:42:42.273Z - info: Using extension fs-store
+2017-03-30T09:42:42.376Z - debug: Extension fs-store was disabled
+2017-03-30T09:42:42.377Z - info: Using extension authorization
+2017-03-30T09:42:42.422Z - debug: Extension authorization was disabled
+2017-03-30T09:42:42.422Z - info: Using extension data
+2017-03-30T09:42:42.424Z - info: Using extension child-templates
+2017-03-30T09:42:42.476Z - info: Using extension licensing
+2017-03-30T09:42:42.675Z - info: Using extension html-to-xlsx
+2017-03-30T09:42:42.809Z - info: Using extension text
+2017-03-30T09:42:42.810Z - info: Using extension reports
+2017-03-30T09:42:42.824Z - info: Using extension resources
+2017-03-30T09:42:42.839Z - info: Using extension browser-client
+2017-03-30T09:42:42.840Z - info: Using extension studio
+2017-03-30T09:42:42.966Z - info: Using extension images
+2017-03-30T09:42:43.091Z - info: Using extension scripts
+2017-03-30T09:42:43.135Z - info: Using extension assets
+2017-03-30T09:42:43.207Z - info: Using extension scheduling
+2017-03-30T09:42:43.282Z - info: Using extension xlsx
+2017-03-30T09:42:43.923Z - info: Using extension sample-template
+2017-03-30T09:42:43.924Z - info: Using extension public-templates
+2017-03-30T09:42:43.979Z - debug: Extension public-templates was disabled
+2017-03-30T09:42:44.006Z - info: Creating memory store
+2017-03-30T09:42:44.053Z - info: Creating default express app.
+2017-03-30T09:42:44.153Z - info: jsreport server successfully started on http port: 5488
+2017-03-30T09:42:44.154Z - info: Veryfing license key free
+2017-03-30T09:42:44.844Z - info: Using free license
+2017-03-30T09:42:44.860Z - info: reporter initialized
+2017-03-30T11:38:11.438Z - info: Starting rendering request 1 (user: null) requestId=1
+2017-03-30T11:38:11.454Z - info: Rendering anonymous template { recipe:html,engine:none} requestId=1
+2017-03-30T11:38:11.455Z - info: Starting to render async report FoOwHE89DgRIuqHN
+2017-03-30T11:38:11.456Z - info: Starting rendering request 2 (user: undefined) requestId=2
+2017-03-30T11:38:11.458Z - debug: Inline data specified. requestId=1
+2017-03-30T11:38:11.501Z - warn: Error when processing render request Error during rendering report: Unable to find specified template or user doesnt have permissions to read it: HJ4AClc3g Error: Unable to find specified template or user doesnt have permissions to read it: HJ4AClc3g
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-templates/lib/templates.js:69:17
+    at tryCatcher (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:636:18)
+    at Promise._resolveCallback (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:431:57)
+    at Promise._settlePromiseFromHandler (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:522:17)
+    at Promise._settlePromise (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:636:18)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/nodeback.js:42:21
+    at newArguments.(anonymous function) (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/executor.js:29:17)
+    at Cursor.execFn (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:484:12)
+    at callback (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/cursor.js:126:19)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/cursor.js:193:12
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:329:14
+    at Object.async.eachSeries (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:130:20)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:323:11
+    at fn (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:582:34)
+    at Immediate.<anonymous> (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:498:34)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5) requestId=2
+2017-03-30T11:38:11.502Z - debug: Resources not defined for this template. requestId=1
+2017-03-30T11:38:11.503Z - error: Async reports extension render failed Error: Unable to find specified template or user doesnt have permissions to read it: HJ4AClc3g
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-templates/lib/templates.js:69:17
+    at tryCatcher (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:636:18)
+    at Promise._resolveCallback (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:431:57)
+    at Promise._settlePromiseFromHandler (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:522:17)
+    at Promise._settlePromise (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/promise.js:636:18)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/bluebird/js/release/nodeback.js:42:21
+    at newArguments.(anonymous function) (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/executor.js:29:17)
+    at Cursor.execFn (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:484:12)
+    at callback (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/cursor.js:126:19)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/cursor.js:193:12
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:329:14
+    at Object.async.eachSeries (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:130:20)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/lib/datastore.js:323:11
+    at fn (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:582:34)
+    at Immediate.<anonymous> (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-core/node_modules/nedb/node_modules/async/lib/async.js:498:34)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2017-03-30T11:38:11.514Z - debug: Rendering engine none requestId=1
+2017-03-30T11:38:11.843Z - debug: Compiled template not found in the cache, compiling timestamp=Thu Mar 30 2017 17:08:11 GMT+0530 (IST), requestId=1
+2017-03-30T11:38:11.850Z - debug: Replaced images [] requestId=1
+2017-03-30T11:38:11.858Z - debug: Executing recipe html requestId=1
+2017-03-30T11:38:11.860Z - debug: Skipping storing report. requestId=1
+2017-03-30T11:38:11.868Z - info: Rendering request 1 finished in 438 ms requestId=1
+2017-03-30T11:38:43.360Z - debug: OData query on templates
+2017-03-30T11:38:43.370Z - debug: OData query on tags
+2017-03-30T11:38:43.371Z - debug: OData query on images
+2017-03-30T11:38:43.373Z - debug: OData query on scripts
+2017-03-30T11:38:43.375Z - debug: OData query on data
+2017-03-30T11:38:43.388Z - debug: OData query on assets
+2017-03-30T11:38:43.393Z - debug: OData query on xlsxTemplates
+2017-03-30T11:38:43.395Z - debug: OData query on schedules
+2017-03-30T11:38:43.402Z - debug: OData query on settings
+2017-03-30T11:38:43.547Z - debug: OData query on templates
+2017-03-30T11:38:43.615Z - debug: OData query on settings
+2017-03-30T11:39:12.039Z - debug: OData insert into templates
+2017-03-30T11:39:31.952Z - info: Starting rendering request 3 (user: null) requestId=3
+2017-03-30T11:39:31.957Z - info: Rendering anonymous template { recipe:html,engine:none} requestId=3
+2017-03-30T11:39:31.957Z - info: Starting to render async report i2h4olpuV1h2333i
+2017-03-30T11:39:31.958Z - info: Starting rendering request 4 (user: undefined) requestId=4
+2017-03-30T11:39:31.960Z - debug: Inline data specified. requestId=3
+2017-03-30T11:39:31.966Z - info: Rendering template {shortid:HkFxCvcng, recipe:phantom-pdf,engine:handlebars} requestId=4
+2017-03-30T11:39:31.967Z - debug: Inline data specified. requestId=4
+2017-03-30T11:39:31.980Z - debug: Resources not defined for this template. requestId=3
+2017-03-30T11:39:31.982Z - debug: Rendering engine none requestId=3
+2017-03-30T11:39:32.007Z - debug: Resources not defined for this template. requestId=4
+2017-03-30T11:39:32.009Z - debug: Rendering engine handlebars requestId=4
+2017-03-30T11:39:32.604Z - debug: Compiled template not found in the cache, compiling timestamp=Thu Mar 30 2017 17:09:32 GMT+0530 (IST), requestId=3
+2017-03-30T11:39:32.609Z - debug: Replaced images [] requestId=3
+2017-03-30T11:39:32.613Z - debug: Executing recipe html requestId=3
+2017-03-30T11:39:32.613Z - debug: Skipping storing report. requestId=3
+2017-03-30T11:39:32.657Z - info: Rendering request 3 finished in 706 ms requestId=3
+2017-03-30T11:39:32.677Z - debug: Compiled template not found in the cache, compiling timestamp=Thu Mar 30 2017 17:09:32 GMT+0530 (IST), requestId=4
+2017-03-30T11:39:32.679Z - debug: Replaced images [] requestId=4
+2017-03-30T11:39:32.680Z - debug: Executing recipe phantom-pdf requestId=4
+2017-03-30T11:39:32.733Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=4
+2017-03-30T11:39:32.734Z - error: Async reports extension render failed Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-31T03:16:56.005Z - info: Initializing jsreport@1.4.0 in development mode using configuration file dev.config.json
+2017-03-31T03:16:56.013Z - info: Searching for available extensions in /home/developer/node_js/
+2017-03-31T03:16:56.030Z - info: Extensions location cache contains up to date information, skipping crawling in /home/developer/node_js/node_modules/jsreport/node_modules/
+2017-03-31T03:16:56.123Z - info: Found 28 extensions
+2017-03-31T03:16:56.137Z - debug: Writing extension locations cache to /tmp/jsreport-temp/extensions/locations.json
+2017-03-31T03:16:56.139Z - debug: Discovered 28 extensions
+2017-03-31T03:16:56.141Z - info: Using extension jsrender
+2017-03-31T03:16:56.142Z - info: Using extension tags
+2017-03-31T03:16:56.154Z - info: Using extension templates
+2017-03-31T03:16:56.206Z - debug: Extension authentication is disabled, skipping
+2017-03-31T03:16:56.206Z - info: Using extension import-export
+2017-03-31T03:16:56.559Z - info: Using extension debug
+2017-03-31T03:16:56.560Z - info: Using extension express
+2017-03-31T03:16:56.750Z - info: Using extension fop-pdf
+2017-03-31T03:16:56.807Z - info: Using extension handlebars
+2017-03-31T03:16:56.808Z - info: Using extension phantom-pdf
+2017-03-31T03:16:56.930Z - info: Using extension fs-store
+2017-03-31T03:16:57.244Z - info: Using extension authorization
+2017-03-31T03:16:57.293Z - debug: Extension authorization was disabled
+2017-03-31T03:16:57.293Z - info: Using extension data
+2017-03-31T03:16:57.295Z - info: Using extension child-templates
+2017-03-31T03:16:57.352Z - info: Using extension licensing
+2017-03-31T03:16:57.556Z - info: Using extension html-to-xlsx
+2017-03-31T03:16:57.688Z - info: Using extension text
+2017-03-31T03:16:57.689Z - info: Using extension reports
+2017-03-31T03:16:57.713Z - info: Using extension resources
+2017-03-31T03:16:57.729Z - info: Using extension browser-client
+2017-03-31T03:16:57.732Z - info: Using extension studio
+2017-03-31T03:16:57.854Z - info: Using extension images
+2017-03-31T03:16:57.991Z - info: Using extension scripts
+2017-03-31T03:16:58.035Z - info: Using extension assets
+2017-03-31T03:16:58.100Z - info: Using extension scheduling
+2017-03-31T03:16:58.179Z - info: Using extension xlsx
+2017-03-31T03:16:58.823Z - info: Using extension sample-template
+2017-03-31T03:16:58.824Z - info: Using extension public-templates
+2017-03-31T03:16:58.877Z - debug: Extension public-templates was disabled
+2017-03-31T03:16:58.880Z - info: Initializing fs storage at /home/developer/node_js/data
+2017-03-31T03:16:59.128Z - info: Creating default express app.
+2017-03-31T03:16:59.236Z - info: jsreport server successfully started on http port: 5488
+2017-03-31T03:16:59.261Z - info: Veryfing license key free
+2017-03-31T03:17:00.063Z - info: Using free license
+2017-03-31T03:17:00.073Z - info: reporter initialized
+2017-03-31T03:17:20.326Z - info: Starting rendering request 1 (user: null) requestId=1
+2017-03-31T03:17:20.334Z - info: Starting to render async report gtrPR4q3Q3EqlIyJ
+2017-03-31T03:17:20.335Z - info: Starting rendering request 2 (user: undefined) requestId=2
+2017-03-31T03:17:20.336Z - info: Rendering anonymous template { recipe:html,engine:none} requestId=1
+2017-03-31T03:17:20.337Z - debug: Inline data specified. requestId=1
+2017-03-31T03:17:20.369Z - debug: Resources not defined for this template. requestId=1
+2017-03-31T03:17:20.377Z - debug: Rendering engine none requestId=1
+2017-03-31T03:17:20.454Z - warn: Error when processing render request Error during rendering report: Unable to find specified template or user doesnt have permissions to read it: HkFxCvcng Error: Unable to find specified template or user doesnt have permissions to read it: HkFxCvcng
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-templates/lib/templates.js:69:17
+    at tryCatcher (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:636:18)
+    at Promise._resolveCallback (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:431:57)
+    at Promise._settlePromiseFromHandler (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:522:17)
+    at Promise._settlePromise (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:636:18)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/nodeback.js:42:21
+    at newArguments.(anonymous function) (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/lib/executor.js:29:17)
+    at Cursor.execFn (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/lib/datastore.js:484:12)
+    at callback (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/lib/cursor.js:126:19)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/lib/cursor.js:193:12
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/lib/datastore.js:329:14
+    at Object.async.eachSeries (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/node_modules/async/lib/async.js:130:20)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/lib/datastore.js:323:11
+    at fn (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/node_modules/async/lib/async.js:582:34)
+    at Immediate.<anonymous> (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/node_modules/async/lib/async.js:498:34)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5) requestId=2
+2017-03-31T03:17:20.455Z - error: Async reports extension render failed Error: Unable to find specified template or user doesnt have permissions to read it: HkFxCvcng
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-templates/lib/templates.js:69:17
+    at tryCatcher (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:636:18)
+    at Promise._resolveCallback (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:431:57)
+    at Promise._settlePromiseFromHandler (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:522:17)
+    at Promise._settlePromise (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:691:18)
+    at Promise._fulfill (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/promise.js:636:18)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/bluebird/js/release/nodeback.js:42:21
+    at newArguments.(anonymous function) (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/lib/executor.js:29:17)
+    at Cursor.execFn (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/lib/datastore.js:484:12)
+    at callback (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/lib/cursor.js:126:19)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/lib/cursor.js:193:12
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/lib/datastore.js:329:14
+    at Object.async.eachSeries (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/node_modules/async/lib/async.js:130:20)
+    at /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/lib/datastore.js:323:11
+    at fn (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/node_modules/async/lib/async.js:582:34)
+    at Immediate.<anonymous> (/home/developer/node_js/node_modules/jsreport/node_modules/jsreport-fs-store/node_modules/nedb/node_modules/async/lib/async.js:498:34)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+2017-03-31T03:17:20.713Z - debug: Compiled template not found in the cache, compiling timestamp=Fri Mar 31 2017 08:47:20 GMT+0530 (IST), requestId=1
+2017-03-31T03:17:20.719Z - debug: Replaced images [] requestId=1
+2017-03-31T03:17:20.724Z - debug: Executing recipe html requestId=1
+2017-03-31T03:17:20.726Z - debug: Skipping storing report. requestId=1
+2017-03-31T03:17:20.735Z - info: Rendering request 1 finished in 410 ms requestId=1
+2017-03-31T03:17:48.846Z - debug: OData query on templates
+2017-03-31T03:17:48.856Z - debug: OData query on data
+2017-03-31T03:17:48.857Z - debug: OData query on tags
+2017-03-31T03:17:48.871Z - debug: OData query on images
+2017-03-31T03:17:48.874Z - debug: OData query on scripts
+2017-03-31T03:17:48.877Z - debug: OData query on assets
+2017-03-31T03:17:48.893Z - debug: OData query on xlsxTemplates
+2017-03-31T03:17:48.900Z - debug: OData query on schedules
+2017-03-31T03:17:48.911Z - debug: OData query on settings
+2017-03-31T03:17:51.407Z - debug: OData query on templates
+2017-03-31T03:18:15.631Z - info: Starting rendering request 3 (user: null) requestId=3
+2017-03-31T03:18:15.641Z - info: Starting to render async report MMiFD3979xcNKlkx
+2017-03-31T03:18:15.642Z - info: Starting rendering request 4 (user: undefined) requestId=4
+2017-03-31T03:18:15.643Z - info: Rendering anonymous template { recipe:html,engine:none} requestId=3
+2017-03-31T03:18:15.643Z - debug: Inline data specified. requestId=3
+2017-03-31T03:18:15.654Z - info: Rendering template {shortid:S1tR2CfYg, recipe:phantom-pdf,engine:handlebars} requestId=4
+2017-03-31T03:18:15.655Z - debug: Inline data specified. requestId=4
+2017-03-31T03:18:15.672Z - debug: Resources not defined for this template. requestId=3
+2017-03-31T03:18:15.675Z - debug: Rendering engine none requestId=3
+2017-03-31T03:18:15.701Z - debug: Resources not defined for this template. requestId=4
+2017-03-31T03:18:15.704Z - debug: Rendering engine handlebars requestId=4
+2017-03-31T03:18:16.218Z - debug: Compiled template not found in the cache, compiling timestamp=Fri Mar 31 2017 08:48:16 GMT+0530 (IST), requestId=3
+2017-03-31T03:18:16.223Z - debug: Replaced images [] requestId=3
+2017-03-31T03:18:16.240Z - debug: Executing recipe html requestId=3
+2017-03-31T03:18:16.241Z - debug: Skipping storing report. requestId=3
+2017-03-31T03:18:16.310Z - info: Rendering request 3 finished in 679 ms requestId=3
+2017-03-31T03:18:16.350Z - debug: Compiled template not found in the cache, compiling timestamp=Fri Mar 31 2017 08:48:16 GMT+0530 (IST), requestId=4
+2017-03-31T03:18:16.353Z - debug: Replaced images [] requestId=4
+2017-03-31T03:18:16.358Z - debug: Executing recipe phantom-pdf requestId=4
+2017-03-31T03:18:16.427Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=4
+2017-03-31T03:18:16.428Z - error: Async reports extension render failed Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-31T03:25:48.201Z - info: Initializing jsreport@1.4.0 in development mode using configuration file dev.config.json
+2017-03-31T03:25:48.212Z - info: Searching for available extensions in /home/developer/node_js/
+2017-03-31T03:25:48.224Z - info: Extensions location cache /tmp/jsreport-temp/extensions/locations.json contains older information, crawling
+2017-03-31T03:25:48.915Z - info: Found 28 extensions
+2017-03-31T03:25:48.929Z - debug: Writing extension locations cache to /tmp/jsreport-temp/extensions/locations.json
+2017-03-31T03:25:48.930Z - debug: Discovered 28 extensions
+2017-03-31T03:25:48.933Z - info: Using extension jsrender
+2017-03-31T03:25:48.934Z - info: Using extension tags
+2017-03-31T03:25:48.946Z - info: Using extension templates
+2017-03-31T03:25:48.998Z - debug: Extension authentication is disabled, skipping
+2017-03-31T03:25:48.998Z - info: Using extension import-export
+2017-03-31T03:25:49.335Z - info: Using extension debug
+2017-03-31T03:25:49.336Z - info: Using extension express
+2017-03-31T03:25:49.501Z - info: Using extension fop-pdf
+2017-03-31T03:25:49.562Z - info: Using extension handlebars
+2017-03-31T03:25:49.564Z - info: Using extension phantom-pdf
+2017-03-31T03:25:49.673Z - info: Using extension fs-store
+2017-03-31T03:25:49.982Z - info: Using extension authorization
+2017-03-31T03:25:50.037Z - debug: Extension authorization was disabled
+2017-03-31T03:25:50.038Z - info: Using extension data
+2017-03-31T03:25:50.039Z - info: Using extension child-templates
+2017-03-31T03:25:50.095Z - info: Using extension licensing
+2017-03-31T03:25:50.275Z - info: Using extension html-to-xlsx
+2017-03-31T03:25:50.416Z - info: Using extension text
+2017-03-31T03:25:50.417Z - info: Using extension reports
+2017-03-31T03:25:50.430Z - info: Using extension resources
+2017-03-31T03:25:50.446Z - info: Using extension browser-client
+2017-03-31T03:25:50.447Z - info: Using extension studio
+2017-03-31T03:25:50.566Z - info: Using extension images
+2017-03-31T03:25:50.700Z - info: Using extension scripts
+2017-03-31T03:25:50.745Z - info: Using extension assets
+2017-03-31T03:25:50.810Z - info: Using extension scheduling
+2017-03-31T03:25:50.889Z - info: Using extension xlsx
+2017-03-31T03:25:51.523Z - info: Using extension sample-template
+2017-03-31T03:25:51.524Z - info: Using extension public-templates
+2017-03-31T03:25:51.577Z - debug: Extension public-templates was disabled
+2017-03-31T03:25:51.581Z - info: Initializing fs storage at /home/developer/node_js/data
+2017-03-31T03:25:51.861Z - info: Creating default express app.
+2017-03-31T03:25:51.963Z - info: jsreport server successfully started on http port: 5488
+2017-03-31T03:25:51.985Z - info: Veryfing license key free
+2017-03-31T03:25:53.791Z - info: Using free license
+2017-03-31T03:25:53.799Z - info: reporter initialized
+2017-03-31T03:25:59.156Z - info: Starting rendering request 1 (user: null) requestId=1
+2017-03-31T03:25:59.163Z - info: Starting to render async report 2340R0pM9ypEFzSv
+2017-03-31T03:25:59.163Z - info: Starting rendering request 2 (user: undefined) requestId=2
+2017-03-31T03:25:59.165Z - info: Rendering anonymous template { recipe:html,engine:none} requestId=1
+2017-03-31T03:25:59.166Z - debug: Inline data specified. requestId=1
+2017-03-31T03:25:59.177Z - info: Rendering template {shortid:S1tR2CfYg, recipe:phantom-pdf,engine:handlebars} requestId=2
+2017-03-31T03:25:59.177Z - debug: Inline data specified. requestId=2
+2017-03-31T03:25:59.192Z - debug: Resources not defined for this template. requestId=1
+2017-03-31T03:25:59.201Z - debug: Rendering engine none requestId=1
+2017-03-31T03:25:59.227Z - debug: Resources not defined for this template. requestId=2
+2017-03-31T03:25:59.230Z - debug: Rendering engine handlebars requestId=2
+2017-03-31T03:25:59.748Z - debug: Compiled template not found in the cache, compiling timestamp=Fri Mar 31 2017 08:55:59 GMT+0530 (IST), requestId=1
+2017-03-31T03:25:59.754Z - debug: Replaced images [] requestId=1
+2017-03-31T03:25:59.771Z - debug: Executing recipe html requestId=1
+2017-03-31T03:25:59.773Z - debug: Skipping storing report. requestId=1
+2017-03-31T03:25:59.797Z - info: Rendering request 1 finished in 642 ms requestId=1
+2017-03-31T03:25:59.838Z - debug: Compiled template not found in the cache, compiling timestamp=Fri Mar 31 2017 08:55:59 GMT+0530 (IST), requestId=2
+2017-03-31T03:25:59.839Z - debug: Replaced images [] requestId=2
+2017-03-31T03:25:59.840Z - debug: Executing recipe phantom-pdf requestId=2
+2017-03-31T03:25:59.867Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=2
+2017-03-31T03:25:59.868Z - error: Async reports extension render failed Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-31T03:32:48.030Z - info: Initializing jsreport@1.4.0 in development mode using configuration file dev.config.json
+2017-03-31T03:32:48.040Z - info: Searching for available extensions in /home/developer/node_js/
+2017-03-31T03:32:48.055Z - info: Extensions location cache contains up to date information, skipping crawling in /home/developer/node_js/node_modules/jsreport/node_modules/
+2017-03-31T03:32:48.136Z - info: Found 28 extensions
+2017-03-31T03:32:48.149Z - debug: Writing extension locations cache to /tmp/jsreport-temp/extensions/locations.json
+2017-03-31T03:32:48.151Z - debug: Discovered 28 extensions
+2017-03-31T03:32:48.153Z - info: Using extension jsrender
+2017-03-31T03:32:48.154Z - info: Using extension tags
+2017-03-31T03:32:48.166Z - info: Using extension templates
+2017-03-31T03:32:48.217Z - debug: Extension authentication is disabled, skipping
+2017-03-31T03:32:48.218Z - info: Using extension import-export
+2017-03-31T03:32:48.557Z - info: Using extension debug
+2017-03-31T03:32:48.558Z - info: Using extension express
+2017-03-31T03:32:48.733Z - info: Using extension fop-pdf
+2017-03-31T03:32:48.787Z - info: Using extension handlebars
+2017-03-31T03:32:48.788Z - info: Using extension phantom-pdf
+2017-03-31T03:32:48.901Z - info: Using extension fs-store
+2017-03-31T03:32:49.202Z - info: Using extension authorization
+2017-03-31T03:32:49.248Z - debug: Extension authorization was disabled
+2017-03-31T03:32:49.248Z - info: Using extension data
+2017-03-31T03:32:49.249Z - info: Using extension child-templates
+2017-03-31T03:32:49.304Z - info: Using extension licensing
+2017-03-31T03:32:49.497Z - info: Using extension html-to-xlsx
+2017-03-31T03:32:49.634Z - info: Using extension text
+2017-03-31T03:32:49.635Z - info: Using extension reports
+2017-03-31T03:32:49.648Z - info: Using extension resources
+2017-03-31T03:32:49.663Z - info: Using extension browser-client
+2017-03-31T03:32:49.665Z - info: Using extension studio
+2017-03-31T03:32:49.785Z - info: Using extension images
+2017-03-31T03:32:49.918Z - info: Using extension scripts
+2017-03-31T03:32:49.963Z - info: Using extension assets
+2017-03-31T03:32:50.027Z - info: Using extension scheduling
+2017-03-31T03:32:50.105Z - info: Using extension xlsx
+2017-03-31T03:32:50.713Z - info: Using extension sample-template
+2017-03-31T03:32:50.714Z - info: Using extension public-templates
+2017-03-31T03:32:50.765Z - debug: Extension public-templates was disabled
+2017-03-31T03:32:50.769Z - info: Initializing fs storage at /home/developer/node_js/data
+2017-03-31T03:32:51.095Z - info: Creating default express app.
+2017-03-31T03:32:51.241Z - info: jsreport server successfully started on http port: 5488
+2017-03-31T03:32:51.274Z - info: Veryfing license key free
+2017-03-31T03:32:52.902Z - info: Using free license
+2017-03-31T03:32:52.912Z - info: reporter initialized
+2017-03-31T03:33:07.743Z - info: Starting rendering request 1 (user: null) requestId=1
+2017-03-31T03:33:07.751Z - info: Starting to render async report k1ZyK9Wr4IDNIh3V
+2017-03-31T03:33:07.752Z - info: Starting rendering request 2 (user: undefined) requestId=2
+2017-03-31T03:33:07.753Z - info: Rendering anonymous template { recipe:html,engine:none} requestId=1
+2017-03-31T03:33:07.754Z - debug: Inline data specified. requestId=1
+2017-03-31T03:33:07.765Z - info: Rendering template {shortid:S1tR2CfYg, recipe:phantom-pdf,engine:handlebars} requestId=2
+2017-03-31T03:33:07.766Z - debug: Inline data specified. requestId=2
+2017-03-31T03:33:07.781Z - debug: Resources not defined for this template. requestId=1
+2017-03-31T03:33:07.786Z - debug: Rendering engine none requestId=1
+2017-03-31T03:33:07.809Z - debug: Resources not defined for this template. requestId=2
+2017-03-31T03:33:07.810Z - debug: Rendering engine handlebars requestId=2
+2017-03-31T03:33:08.155Z - debug: Compiled template not found in the cache, compiling timestamp=Fri Mar 31 2017 09:03:08 GMT+0530 (IST), requestId=1
+2017-03-31T03:33:08.159Z - debug: Replaced images [] requestId=1
+2017-03-31T03:33:08.161Z - debug: Executing recipe html requestId=1
+2017-03-31T03:33:08.162Z - debug: Skipping storing report. requestId=1
+2017-03-31T03:33:08.184Z - info: Rendering request 1 finished in 441 ms requestId=1
+2017-03-31T03:33:08.229Z - debug: Compiled template not found in the cache, compiling timestamp=Fri Mar 31 2017 09:03:08 GMT+0530 (IST), requestId=2
+2017-03-31T03:33:08.249Z - debug: Replaced images [] requestId=2
+2017-03-31T03:33:08.250Z - debug: Executing recipe phantom-pdf requestId=2
+2017-03-31T03:33:08.279Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=2
+2017-03-31T03:33:08.280Z - error: Async reports extension render failed Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-31T03:36:57.315Z - info: Initializing jsreport@1.4.0 in development mode using configuration file dev.config.json
+2017-03-31T03:36:57.324Z - info: Searching for available extensions in /home/developer/node_js/
+2017-03-31T03:36:57.343Z - info: Extensions location cache contains up to date information, skipping crawling in /home/developer/node_js/node_modules/jsreport/node_modules/
+2017-03-31T03:36:57.424Z - info: Found 28 extensions
+2017-03-31T03:36:57.437Z - debug: Writing extension locations cache to /tmp/jsreport-temp/extensions/locations.json
+2017-03-31T03:36:57.439Z - debug: Discovered 28 extensions
+2017-03-31T03:36:57.441Z - info: Using extension jsrender
+2017-03-31T03:36:57.442Z - info: Using extension tags
+2017-03-31T03:36:57.453Z - info: Using extension templates
+2017-03-31T03:36:57.504Z - debug: Extension authentication is disabled, skipping
+2017-03-31T03:36:57.504Z - info: Using extension import-export
+2017-03-31T03:36:57.840Z - info: Using extension debug
+2017-03-31T03:36:57.842Z - info: Using extension express
+2017-03-31T03:36:58.020Z - info: Using extension fop-pdf
+2017-03-31T03:36:58.074Z - info: Using extension handlebars
+2017-03-31T03:36:58.075Z - info: Using extension phantom-pdf
+2017-03-31T03:36:58.185Z - info: Using extension fs-store
+2017-03-31T03:36:58.475Z - info: Using extension authorization
+2017-03-31T03:36:58.521Z - debug: Extension authorization was disabled
+2017-03-31T03:36:58.521Z - info: Using extension data
+2017-03-31T03:36:58.523Z - info: Using extension child-templates
+2017-03-31T03:36:58.589Z - info: Using extension licensing
+2017-03-31T03:36:58.769Z - info: Using extension html-to-xlsx
+2017-03-31T03:36:58.906Z - info: Using extension text
+2017-03-31T03:36:58.907Z - info: Using extension reports
+2017-03-31T03:36:58.920Z - info: Using extension resources
+2017-03-31T03:36:58.935Z - info: Using extension browser-client
+2017-03-31T03:36:58.936Z - info: Using extension studio
+2017-03-31T03:36:59.054Z - info: Using extension images
+2017-03-31T03:36:59.186Z - info: Using extension scripts
+2017-03-31T03:36:59.230Z - info: Using extension assets
+2017-03-31T03:36:59.292Z - info: Using extension scheduling
+2017-03-31T03:36:59.367Z - info: Using extension xlsx
+2017-03-31T03:36:59.980Z - info: Using extension sample-template
+2017-03-31T03:36:59.981Z - info: Using extension public-templates
+2017-03-31T03:37:00.037Z - debug: Extension public-templates was disabled
+2017-03-31T03:37:00.040Z - info: Initializing fs storage at /home/developer/node_js/data
+2017-03-31T03:37:00.271Z - info: Creating default express app.
+2017-03-31T03:37:00.373Z - info: jsreport server successfully started on http port: 5488
+2017-03-31T03:37:00.395Z - info: Veryfing license key free
+2017-03-31T03:37:00.999Z - info: Using free license
+2017-03-31T03:37:01.009Z - info: reporter initialized
+2017-03-31T03:37:06.931Z - info: Starting rendering request 1 (user: null) requestId=1
+2017-03-31T03:37:06.938Z - info: Starting to render async report uw9Sc5KLCOtWyiGx
+2017-03-31T03:37:06.939Z - info: Starting rendering request 2 (user: undefined) requestId=2
+2017-03-31T03:37:06.940Z - info: Rendering anonymous template { recipe:html,engine:none} requestId=1
+2017-03-31T03:37:06.941Z - debug: Inline data specified. requestId=1
+2017-03-31T03:37:06.952Z - info: Rendering template {shortid:S1tR2CfYg, recipe:phantom-pdf,engine:handlebars} requestId=2
+2017-03-31T03:37:06.953Z - debug: Inline data specified. requestId=2
+2017-03-31T03:37:06.968Z - debug: Resources not defined for this template. requestId=1
+2017-03-31T03:37:06.977Z - debug: Rendering engine none requestId=1
+2017-03-31T03:37:07.003Z - debug: Resources not defined for this template. requestId=2
+2017-03-31T03:37:07.005Z - debug: Rendering engine handlebars requestId=2
+2017-03-31T03:37:07.521Z - debug: Compiled template not found in the cache, compiling timestamp=Fri Mar 31 2017 09:07:07 GMT+0530 (IST), requestId=1
+2017-03-31T03:37:07.526Z - debug: Replaced images [] requestId=1
+2017-03-31T03:37:07.542Z - debug: Executing recipe html requestId=1
+2017-03-31T03:37:07.543Z - debug: Skipping storing report. requestId=1
+2017-03-31T03:37:07.568Z - info: Rendering request 1 finished in 638 ms requestId=1
+2017-03-31T03:37:07.632Z - debug: Compiled template not found in the cache, compiling timestamp=Fri Mar 31 2017 09:07:07 GMT+0530 (IST), requestId=2
+2017-03-31T03:37:07.636Z - debug: Replaced images [] requestId=2
+2017-03-31T03:37:07.638Z - debug: Executing recipe phantom-pdf requestId=2
+2017-03-31T03:37:07.702Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=2
+2017-03-31T03:37:07.704Z - error: Async reports extension render failed Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-31T03:39:20.035Z - debug: OData query on data
+2017-03-31T03:39:28.579Z - debug: OData update on templates
+2017-03-31T03:39:29.262Z - info: Starting rendering request 3 (user: null) requestId=3
+2017-03-31T03:39:29.264Z - info: Rendering template {shortid:S1tR2CfYg, recipe:phantom-pdf,engine:handlebars} requestId=3
+2017-03-31T03:39:29.264Z - debug: Inline data specified. requestId=3
+2017-03-31T03:39:29.269Z - debug: Resources not defined for this template. requestId=3
+2017-03-31T03:39:29.270Z - debug: Rendering engine handlebars requestId=3
+2017-03-31T03:39:29.598Z - debug: Compiled template not found in the cache, compiling timestamp=Fri Mar 31 2017 09:09:29 GMT+0530 (IST), requestId=3
+2017-03-31T03:39:29.600Z - debug: Replaced images [] requestId=3
+2017-03-31T03:39:29.601Z - debug: Executing recipe phantom-pdf requestId=3
+2017-03-31T03:39:29.620Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=3
+2017-03-31T03:39:29.622Z - error: Error during processing request: http://10.0.1.146:5488/api/report details: Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-31T03:46:35.850Z - info: Initializing jsreport@1.4.0 in development mode using configuration file dev.config.json
+2017-03-31T03:46:35.859Z - info: Searching for available extensions in /home/developer/node_js/
+2017-03-31T03:46:35.877Z - info: Extensions location cache contains up to date information, skipping crawling in /home/developer/node_js/node_modules/jsreport/node_modules/
+2017-03-31T03:46:35.963Z - info: Found 28 extensions
+2017-03-31T03:46:35.977Z - debug: Writing extension locations cache to /tmp/jsreport-temp/extensions/locations.json
+2017-03-31T03:46:35.979Z - debug: Discovered 28 extensions
+2017-03-31T03:46:35.981Z - info: Using extension jsrender
+2017-03-31T03:46:35.982Z - info: Using extension tags
+2017-03-31T03:46:35.993Z - info: Using extension templates
+2017-03-31T03:46:36.045Z - debug: Extension authentication is disabled, skipping
+2017-03-31T03:46:36.046Z - info: Using extension import-export
+2017-03-31T03:46:36.381Z - info: Using extension debug
+2017-03-31T03:46:36.382Z - info: Using extension express
+2017-03-31T03:46:36.565Z - info: Using extension fop-pdf
+2017-03-31T03:46:36.620Z - info: Using extension handlebars
+2017-03-31T03:46:36.622Z - info: Using extension phantom-pdf
+2017-03-31T03:46:36.733Z - info: Using extension fs-store
+2017-03-31T03:46:37.032Z - info: Using extension authorization
+2017-03-31T03:46:37.081Z - debug: Extension authorization was disabled
+2017-03-31T03:46:37.081Z - info: Using extension data
+2017-03-31T03:46:37.082Z - info: Using extension child-templates
+2017-03-31T03:46:37.146Z - info: Using extension licensing
+2017-03-31T03:46:37.327Z - info: Using extension html-to-xlsx
+2017-03-31T03:46:37.468Z - info: Using extension text
+2017-03-31T03:46:37.469Z - info: Using extension reports
+2017-03-31T03:46:37.481Z - info: Using extension resources
+2017-03-31T03:46:37.497Z - info: Using extension browser-client
+2017-03-31T03:46:37.498Z - info: Using extension studio
+2017-03-31T03:46:37.617Z - info: Using extension images
+2017-03-31T03:46:37.754Z - info: Using extension scripts
+2017-03-31T03:46:37.800Z - info: Using extension assets
+2017-03-31T03:46:37.866Z - info: Using extension scheduling
+2017-03-31T03:46:37.948Z - info: Using extension xlsx
+2017-03-31T03:46:38.570Z - info: Using extension sample-template
+2017-03-31T03:46:38.571Z - info: Using extension public-templates
+2017-03-31T03:46:38.624Z - debug: Extension public-templates was disabled
+2017-03-31T03:46:38.627Z - info: Initializing fs storage at /home/developer/node_js/data
+2017-03-31T03:46:38.846Z - info: Creating default express app.
+2017-03-31T03:46:38.946Z - info: jsreport server successfully started on http port: 5488
+2017-03-31T03:46:38.968Z - info: Veryfing license key free
+2017-03-31T03:46:39.621Z - info: Using free license
+2017-03-31T03:46:39.628Z - info: reporter initialized
+2017-03-31T03:46:45.751Z - info: Starting rendering request 1 (user: null) requestId=1
+2017-03-31T03:46:45.754Z - info: Rendering template {shortid:S1tR2CfYg, recipe:phantom-pdf,engine:handlebars} requestId=1
+2017-03-31T03:46:45.755Z - debug: Inline data specified. requestId=1
+2017-03-31T03:46:45.770Z - debug: Resources not defined for this template. requestId=1
+2017-03-31T03:46:45.775Z - debug: Rendering engine handlebars requestId=1
+2017-03-31T03:46:46.006Z - debug: Compiled template not found in the cache, compiling timestamp=Fri Mar 31 2017 09:16:45 GMT+0530 (IST), requestId=1
+2017-03-31T03:46:46.010Z - debug: Replaced images [] requestId=1
+2017-03-31T03:46:46.013Z - debug: Executing recipe phantom-pdf requestId=1
+2017-03-31T03:46:46.061Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=1
+2017-03-31T03:46:46.063Z - error: Error during processing request: http://10.0.1.146:5488/api/report details: Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-31T04:13:30.353Z - info: Initializing jsreport@1.4.0 in development mode using configuration file dev.config.json
+2017-03-31T04:13:30.362Z - info: Searching for available extensions in /home/developer/node_js/
+2017-03-31T04:13:30.375Z - info: Extensions location cache /tmp/jsreport-temp/extensions/locations.json contains older information, crawling
+2017-03-31T04:13:31.058Z - info: Found 28 extensions
+2017-03-31T04:13:31.072Z - debug: Writing extension locations cache to /tmp/jsreport-temp/extensions/locations.json
+2017-03-31T04:13:31.074Z - debug: Discovered 28 extensions
+2017-03-31T04:13:31.076Z - info: Using extension jsrender
+2017-03-31T04:13:31.078Z - info: Using extension tags
+2017-03-31T04:13:31.091Z - info: Using extension templates
+2017-03-31T04:13:31.145Z - debug: Extension authentication is disabled, skipping
+2017-03-31T04:13:31.145Z - info: Using extension import-export
+2017-03-31T04:13:31.491Z - info: Using extension debug
+2017-03-31T04:13:31.492Z - info: Using extension express
+2017-03-31T04:13:31.668Z - info: Using extension fop-pdf
+2017-03-31T04:13:31.723Z - info: Using extension handlebars
+2017-03-31T04:13:31.724Z - info: Using extension phantom-pdf
+2017-03-31T04:13:31.843Z - info: Using extension fs-store
+2017-03-31T04:13:32.142Z - info: Using extension authorization
+2017-03-31T04:13:32.191Z - debug: Extension authorization was disabled
+2017-03-31T04:13:32.191Z - info: Using extension data
+2017-03-31T04:13:32.193Z - info: Using extension child-templates
+2017-03-31T04:13:32.259Z - info: Using extension licensing
+2017-03-31T04:13:32.446Z - info: Using extension html-to-xlsx
+2017-03-31T04:13:32.587Z - info: Using extension text
+2017-03-31T04:13:32.587Z - info: Using extension reports
+2017-03-31T04:13:32.601Z - info: Using extension resources
+2017-03-31T04:13:32.617Z - info: Using extension browser-client
+2017-03-31T04:13:32.618Z - info: Using extension studio
+2017-03-31T04:13:32.736Z - info: Using extension images
+2017-03-31T04:13:32.871Z - info: Using extension scripts
+2017-03-31T04:13:32.916Z - info: Using extension assets
+2017-03-31T04:13:32.981Z - info: Using extension scheduling
+2017-03-31T04:13:33.059Z - info: Using extension xlsx
+2017-03-31T04:13:33.679Z - info: Using extension sample-template
+2017-03-31T04:13:33.680Z - info: Using extension public-templates
+2017-03-31T04:13:33.735Z - debug: Extension public-templates was disabled
+2017-03-31T04:13:33.739Z - info: Initializing fs storage at /home/developer/node_js/data
+2017-03-31T04:13:33.971Z - info: Creating default express app.
+2017-03-31T04:13:34.072Z - info: jsreport server successfully started on http port: 5488
+2017-03-31T04:13:34.095Z - info: Veryfing license key free
+2017-03-31T04:13:34.811Z - info: Using free license
+2017-03-31T04:13:34.822Z - info: reporter initialized
+2017-03-31T04:13:38.744Z - info: Starting rendering request 1 (user: null) requestId=1
+2017-03-31T04:13:38.747Z - info: Rendering template {shortid:S1tR2CfYg, recipe:phantom-pdf,engine:handlebars} requestId=1
+2017-03-31T04:13:38.747Z - debug: Inline data specified. requestId=1
+2017-03-31T04:13:38.762Z - debug: Resources not defined for this template. requestId=1
+2017-03-31T04:13:38.766Z - debug: Rendering engine handlebars requestId=1
+2017-03-31T04:13:39.000Z - debug: Compiled template not found in the cache, compiling timestamp=Fri Mar 31 2017 09:43:38 GMT+0530 (IST), requestId=1
+2017-03-31T04:13:39.006Z - debug: Replaced images [] requestId=1
+2017-03-31T04:13:39.009Z - debug: Executing recipe phantom-pdf requestId=1
+2017-03-31T04:13:39.049Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=1
+2017-03-31T04:13:39.051Z - error: Error during processing request: http://10.0.1.146:5488/api/report details: Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-31T04:13:43.892Z - info: Starting rendering request 2 (user: null) requestId=2
+2017-03-31T04:13:43.894Z - info: Rendering template {shortid:S1tR2CfYg, recipe:phantom-pdf,engine:handlebars} requestId=2
+2017-03-31T04:13:43.894Z - debug: Inline data specified. requestId=2
+2017-03-31T04:13:43.897Z - debug: Resources not defined for this template. requestId=2
+2017-03-31T04:13:43.898Z - debug: Rendering engine handlebars requestId=2
+2017-03-31T04:13:44.133Z - debug: Compiled template not found in the cache, compiling timestamp=Fri Mar 31 2017 09:43:44 GMT+0530 (IST), requestId=2
+2017-03-31T04:13:44.134Z - debug: Replaced images [] requestId=2
+2017-03-31T04:13:44.135Z - debug: Executing recipe phantom-pdf requestId=2
+2017-03-31T04:13:44.150Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=2
+2017-03-31T04:13:44.151Z - error: Error during processing request: http://10.0.1.146:5488/api/report details: Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-31T04:13:48.970Z - debug: OData query on templates
+2017-03-31T04:13:48.980Z - debug: OData query on scripts
+2017-03-31T04:13:48.983Z - debug: OData query on tags
+2017-03-31T04:13:48.984Z - debug: OData query on images
+2017-03-31T04:13:48.987Z - debug: OData query on assets
+2017-03-31T04:13:48.989Z - debug: OData query on data
+2017-03-31T04:13:49.004Z - debug: OData query on xlsxTemplates
+2017-03-31T04:13:49.014Z - debug: OData query on schedules
+2017-03-31T04:13:49.031Z - debug: OData query on settings
+2017-03-31T04:13:49.198Z - debug: OData query on templates
+2017-03-31T04:13:52.321Z - info: Starting rendering request 3 (user: null) requestId=3
+2017-03-31T04:13:52.323Z - info: Rendering template {shortid:S1tR2CfYg, recipe:phantom-pdf,engine:handlebars} requestId=3
+2017-03-31T04:13:52.324Z - debug: Adding sample data Byk_ElXFe requestId=3
+2017-03-31T04:13:52.327Z - debug: Resources not defined for this template. requestId=3
+2017-03-31T04:13:52.330Z - debug: Rendering engine handlebars requestId=3
+2017-03-31T04:13:52.662Z - debug: Compiled template not found in the cache, compiling timestamp=Fri Mar 31 2017 09:43:52 GMT+0530 (IST), requestId=3
+2017-03-31T04:13:52.663Z - debug: Replaced images [] requestId=3
+2017-03-31T04:13:52.663Z - debug: Executing recipe phantom-pdf requestId=3
+2017-03-31T04:13:52.677Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=3
+2017-03-31T04:13:52.678Z - error: Error during processing request: http://10.0.1.146:5488/api/report details: Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-03-31T11:23:37.463Z - info: Initializing jsreport@1.4.0 in development mode using configuration file dev.config.json
+2017-03-31T11:23:37.473Z - info: Searching for available extensions in /home/developer/node_js/
+2017-03-31T11:23:37.489Z - info: Extensions location cache contains up to date information, skipping crawling in /home/developer/node_js/node_modules/jsreport/node_modules/
+2017-03-31T11:23:37.574Z - info: Found 28 extensions
+2017-03-31T11:23:37.587Z - debug: Writing extension locations cache to /tmp/jsreport-temp/extensions/locations.json
+2017-03-31T11:23:37.589Z - debug: Discovered 28 extensions
+2017-03-31T11:23:37.591Z - info: Using extension jsrender
+2017-03-31T11:23:37.592Z - info: Using extension tags
+2017-03-31T11:23:37.601Z - info: Using extension templates
+2017-03-31T11:23:37.653Z - debug: Extension authentication is disabled, skipping
+2017-03-31T11:23:37.653Z - info: Using extension import-export
+2017-03-31T11:23:37.998Z - info: Using extension debug
+2017-03-31T11:23:37.999Z - info: Using extension express
+2017-03-31T11:23:38.178Z - info: Using extension fop-pdf
+2017-03-31T11:23:38.233Z - info: Using extension handlebars
+2017-03-31T11:23:38.234Z - info: Using extension phantom-pdf
+2017-03-31T11:23:38.348Z - info: Using extension fs-store
+2017-03-31T11:23:38.644Z - info: Using extension authorization
+2017-03-31T11:23:38.717Z - debug: Extension authorization was disabled
+2017-03-31T11:23:38.717Z - info: Using extension data
+2017-03-31T11:23:38.719Z - info: Using extension child-templates
+2017-03-31T11:23:38.810Z - info: Using extension licensing
+2017-03-31T11:23:39.117Z - info: Using extension html-to-xlsx
+2017-03-31T11:23:39.246Z - info: Using extension text
+2017-03-31T11:23:39.247Z - info: Using extension reports
+2017-03-31T11:23:39.270Z - info: Using extension resources
+2017-03-31T11:23:39.286Z - info: Using extension browser-client
+2017-03-31T11:23:39.287Z - info: Using extension studio
+2017-03-31T11:23:39.402Z - info: Using extension images
+2017-03-31T11:23:39.536Z - info: Using extension scripts
+2017-03-31T11:23:39.580Z - info: Using extension assets
+2017-03-31T11:23:39.642Z - info: Using extension scheduling
+2017-03-31T11:23:39.718Z - info: Using extension xlsx
+2017-03-31T11:23:40.349Z - info: Using extension sample-template
+2017-03-31T11:23:40.350Z - info: Using extension public-templates
+2017-03-31T11:23:40.401Z - debug: Extension public-templates was disabled
+2017-03-31T11:23:40.404Z - info: Initializing fs storage at /home/developer/node_js/data
+2017-03-31T11:23:40.630Z - info: Creating default express app.
+2017-03-31T11:23:40.734Z - info: jsreport server successfully started on http port: 5488
+2017-03-31T11:23:40.758Z - info: Veryfing license key free
+2017-03-31T11:23:41.566Z - info: Using free license
+2017-03-31T11:23:41.577Z - info: reporter initialized
+2017-03-31T11:25:12.374Z - info: Starting rendering request 1 (user: null) requestId=1
+2017-03-31T11:25:12.393Z - info: Starting to render async report kuEjEoZwDjj3i4LP
+2017-03-31T11:25:12.394Z - info: Starting rendering request 2 (user: undefined) requestId=2
+2017-03-31T11:25:12.396Z - info: Rendering anonymous template { recipe:html,engine:none} requestId=1
+2017-03-31T11:25:12.398Z - debug: Inline data specified. requestId=1
+2017-03-31T11:25:12.425Z - info: Rendering template {shortid:S1tR2CfYg, recipe:phantom-pdf,engine:handlebars} requestId=2
+2017-03-31T11:25:12.427Z - debug: Inline data specified. requestId=2
+2017-03-31T11:25:12.476Z - debug: Resources not defined for this template. requestId=1
+2017-03-31T11:25:12.487Z - debug: Rendering engine none requestId=1
+2017-03-31T11:25:12.555Z - debug: Resources not defined for this template. requestId=2
+2017-03-31T11:25:12.573Z - debug: Rendering engine handlebars requestId=2
+2017-03-31T11:25:13.137Z - debug: Compiled template not found in the cache, compiling timestamp=Fri Mar 31 2017 16:55:13 GMT+0530 (IST), requestId=1
+2017-03-31T11:25:13.145Z - debug: Replaced images [] requestId=1
+2017-03-31T11:25:13.166Z - debug: Executing recipe html requestId=1
+2017-03-31T11:25:13.168Z - debug: Skipping storing report. requestId=1
+2017-03-31T11:25:13.344Z - debug: Compiled template not found in the cache, compiling timestamp=Fri Mar 31 2017 16:55:13 GMT+0530 (IST), requestId=2
+2017-03-31T11:25:13.349Z - debug: Replaced images [] requestId=2
+2017-03-31T11:25:13.350Z - debug: Executing recipe phantom-pdf requestId=2
+2017-03-31T11:25:13.364Z - info: Rendering request 1 finished in 992 ms requestId=1
+2017-03-31T11:25:13.404Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=2
+2017-03-31T11:25:13.407Z - error: Async reports extension render failed Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-04-03T03:07:12.329Z - info: Initializing jsreport@1.4.0 in development mode using configuration file dev.config.json
+2017-04-03T03:07:12.337Z - info: Searching for available extensions in /home/developer/node_js/
+2017-04-03T03:07:12.353Z - info: Extensions location cache contains up to date information, skipping crawling in /home/developer/node_js/node_modules/jsreport/node_modules/
+2017-04-03T03:07:12.443Z - info: Found 28 extensions
+2017-04-03T03:07:12.456Z - debug: Writing extension locations cache to /tmp/jsreport-temp/extensions/locations.json
+2017-04-03T03:07:12.458Z - debug: Discovered 28 extensions
+2017-04-03T03:07:12.465Z - info: Using extension jsrender
+2017-04-03T03:07:12.467Z - info: Using extension tags
+2017-04-03T03:07:12.478Z - info: Using extension templates
+2017-04-03T03:07:12.552Z - debug: Extension authentication is disabled, skipping
+2017-04-03T03:07:12.552Z - info: Using extension import-export
+2017-04-03T03:07:12.901Z - info: Using extension debug
+2017-04-03T03:07:12.902Z - info: Using extension express
+2017-04-03T03:07:13.080Z - info: Using extension fop-pdf
+2017-04-03T03:07:13.135Z - info: Using extension handlebars
+2017-04-03T03:07:13.136Z - info: Using extension phantom-pdf
+2017-04-03T03:07:13.250Z - info: Using extension fs-store
+2017-04-03T03:07:13.569Z - info: Using extension authorization
+2017-04-03T03:07:13.625Z - debug: Extension authorization was disabled
+2017-04-03T03:07:13.625Z - info: Using extension data
+2017-04-03T03:07:13.627Z - info: Using extension child-templates
+2017-04-03T03:07:13.701Z - info: Using extension licensing
+2017-04-03T03:07:13.899Z - info: Using extension html-to-xlsx
+2017-04-03T03:07:14.051Z - info: Using extension text
+2017-04-03T03:07:14.052Z - info: Using extension reports
+2017-04-03T03:07:14.066Z - info: Using extension resources
+2017-04-03T03:07:14.082Z - info: Using extension browser-client
+2017-04-03T03:07:14.084Z - info: Using extension studio
+2017-04-03T03:07:14.210Z - info: Using extension images
+2017-04-03T03:07:14.350Z - info: Using extension scripts
+2017-04-03T03:07:14.396Z - info: Using extension assets
+2017-04-03T03:07:14.460Z - info: Using extension scheduling
+2017-04-03T03:07:14.541Z - info: Using extension xlsx
+2017-04-03T03:07:15.171Z - info: Using extension sample-template
+2017-04-03T03:07:15.173Z - info: Using extension public-templates
+2017-04-03T03:07:15.225Z - debug: Extension public-templates was disabled
+2017-04-03T03:07:15.228Z - info: Initializing fs storage at /home/developer/node_js/data
+2017-04-03T03:07:15.472Z - info: Creating default express app.
+2017-04-03T03:07:15.584Z - info: jsreport server successfully started on http port: 5488
+2017-04-03T03:07:15.619Z - info: Veryfing license key free
+2017-04-03T03:07:16.477Z - info: Using free license
+2017-04-03T03:07:16.487Z - info: reporter initialized
+2017-04-03T03:08:30.184Z - info: Starting rendering request 1 (user: null) requestId=1
+2017-04-03T03:08:30.200Z - info: Starting to render async report XosuKe0vJ4hV504S
+2017-04-03T03:08:30.200Z - info: Starting rendering request 2 (user: undefined) requestId=2
+2017-04-03T03:08:30.202Z - info: Rendering anonymous template { recipe:html,engine:none} requestId=1
+2017-04-03T03:08:30.203Z - debug: Inline data specified. requestId=1
+2017-04-03T03:08:30.220Z - info: Rendering template {shortid:S1tR2CfYg, recipe:phantom-pdf,engine:handlebars} requestId=2
+2017-04-03T03:08:30.222Z - debug: Inline data specified. requestId=2
+2017-04-03T03:08:30.252Z - debug: Resources not defined for this template. requestId=1
+2017-04-03T03:08:30.261Z - debug: Rendering engine none requestId=1
+2017-04-03T03:08:30.305Z - debug: Resources not defined for this template. requestId=2
+2017-04-03T03:08:30.308Z - debug: Rendering engine handlebars requestId=2
+2017-04-03T03:08:30.819Z - debug: Compiled template not found in the cache, compiling timestamp=Mon Apr 03 2017 08:38:30 GMT+0530 (IST), requestId=1
+2017-04-03T03:08:30.826Z - debug: Replaced images [] requestId=1
+2017-04-03T03:08:30.846Z - debug: Executing recipe html requestId=1
+2017-04-03T03:08:30.848Z - debug: Skipping storing report. requestId=1
+2017-04-03T03:08:30.914Z - info: Rendering request 1 finished in 731 ms requestId=1
+2017-04-03T03:08:30.951Z - debug: Compiled template not found in the cache, compiling timestamp=Mon Apr 03 2017 08:38:30 GMT+0530 (IST), requestId=2
+2017-04-03T03:08:30.953Z - debug: Replaced images [] requestId=2
+2017-04-03T03:08:30.959Z - debug: Executing recipe phantom-pdf requestId=2
+2017-04-03T03:08:31.038Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=2
+2017-04-03T03:08:31.040Z - error: Async reports extension render failed Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2017-04-03T03:11:05.086Z - info: Initializing jsreport@1.4.0 in development mode using configuration file dev.config.json
+2017-04-03T03:11:05.096Z - info: Searching for available extensions in /home/developer/node_js/
+2017-04-03T03:11:05.113Z - info: Extensions location cache /tmp/jsreport-temp/extensions/locations.json contains older information, crawling
+2017-04-03T03:11:06.106Z - info: Found 28 extensions
+2017-04-03T03:11:06.120Z - debug: Writing extension locations cache to /tmp/jsreport-temp/extensions/locations.json
+2017-04-03T03:11:06.121Z - debug: Discovered 28 extensions
+2017-04-03T03:11:06.124Z - info: Using extension jsrender
+2017-04-03T03:11:06.125Z - info: Using extension tags
+2017-04-03T03:11:06.134Z - info: Using extension templates
+2017-04-03T03:11:06.185Z - debug: Extension authentication is disabled, skipping
+2017-04-03T03:11:06.185Z - info: Using extension import-export
+2017-04-03T03:11:06.509Z - info: Using extension debug
+2017-04-03T03:11:06.510Z - info: Using extension express
+2017-04-03T03:11:06.688Z - info: Using extension fop-pdf
+2017-04-03T03:11:06.752Z - info: Using extension handlebars
+2017-04-03T03:11:06.753Z - info: Using extension phantom-pdf
+2017-04-03T03:11:06.864Z - info: Using extension fs-store
+2017-04-03T03:11:07.144Z - info: Using extension authorization
+2017-04-03T03:11:07.200Z - debug: Extension authorization was disabled
+2017-04-03T03:11:07.200Z - info: Using extension data
+2017-04-03T03:11:07.202Z - info: Using extension child-templates
+2017-04-03T03:11:07.255Z - info: Using extension licensing
+2017-04-03T03:11:07.430Z - info: Using extension html-to-xlsx
+2017-04-03T03:11:07.565Z - info: Using extension text
+2017-04-03T03:11:07.566Z - info: Using extension reports
+2017-04-03T03:11:07.579Z - info: Using extension resources
+2017-04-03T03:11:07.594Z - info: Using extension browser-client
+2017-04-03T03:11:07.595Z - info: Using extension studio
+2017-04-03T03:11:07.710Z - info: Using extension images
+2017-04-03T03:11:07.842Z - info: Using extension scripts
+2017-04-03T03:11:07.886Z - info: Using extension assets
+2017-04-03T03:11:07.948Z - info: Using extension scheduling
+2017-04-03T03:11:08.024Z - info: Using extension xlsx
+2017-04-03T03:11:08.627Z - info: Using extension sample-template
+2017-04-03T03:11:08.628Z - info: Using extension public-templates
+2017-04-03T03:11:08.678Z - debug: Extension public-templates was disabled
+2017-04-03T03:11:08.681Z - info: Initializing fs storage at /home/developer/node_js/data
+2017-04-03T03:11:08.932Z - info: Creating default express app.
+2017-04-03T03:11:09.030Z - info: jsreport server successfully started on http port: 5488
+2017-04-03T03:11:09.052Z - info: Veryfing license key free
+2017-04-03T03:11:09.668Z - info: Using free license
+2017-04-03T03:11:09.678Z - info: reporter initialized
+2017-04-03T03:11:29.265Z - info: Starting rendering request 1 (user: null) requestId=1
+2017-04-03T03:11:29.274Z - info: Starting to render async report RHOshl9JZIALES80
+2017-04-03T03:11:29.275Z - info: Starting rendering request 2 (user: undefined) requestId=2
+2017-04-03T03:11:29.277Z - info: Rendering anonymous template { recipe:html,engine:none} requestId=1
+2017-04-03T03:11:29.278Z - debug: Inline data specified. requestId=1
+2017-04-03T03:11:29.293Z - info: Rendering template {shortid:S1tR2CfYg, recipe:phantom-pdf,engine:handlebars} requestId=2
+2017-04-03T03:11:29.294Z - debug: Inline data specified. requestId=2
+2017-04-03T03:11:29.309Z - debug: Resources not defined for this template. requestId=1
+2017-04-03T03:11:29.317Z - debug: Rendering engine none requestId=1
+2017-04-03T03:11:29.342Z - debug: Resources not defined for this template. requestId=2
+2017-04-03T03:11:29.344Z - debug: Rendering engine handlebars requestId=2
+2017-04-03T03:11:29.879Z - debug: Compiled template not found in the cache, compiling timestamp=Mon Apr 03 2017 08:41:29 GMT+0530 (IST), requestId=1
+2017-04-03T03:11:29.887Z - debug: Replaced images [] requestId=1
+2017-04-03T03:11:29.905Z - debug: Executing recipe html requestId=1
+2017-04-03T03:11:29.906Z - debug: Skipping storing report. requestId=1
+2017-04-03T03:11:29.939Z - info: Rendering request 1 finished in 676 ms requestId=1
+2017-04-03T03:11:29.981Z - debug: Compiled template not found in the cache, compiling timestamp=Mon Apr 03 2017 08:41:29 GMT+0530 (IST), requestId=2
+2017-04-03T03:11:29.982Z - debug: Replaced images [] requestId=2
+2017-04-03T03:11:29.984Z - debug: Executing recipe phantom-pdf requestId=2
+2017-04-03T03:11:30.023Z - error: Error when processing render request Error during rendering report: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) requestId=2
+2017-04-03T03:11:30.025Z - error: Async reports extension render failed Error: spawn /home/developer/node_js/node_modules/jsreport/node_modules/jsreport-phantom-pdf/node_modules/phantom-html-to-pdf/node_modules/phantomjs/lib/phantom\phantomjs.exe ENOENT
+    at exports._errnoException (util.js:1034:11)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
+    at onErrorNT (internal/child_process.js:367:16)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
